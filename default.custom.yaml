@@ -1,0 +1,7 @@
+patch:
+  schema_list:
+    - schema: yaoling_pop      # 頂屏模式：候選暫存，延遲頂屏
+    - schema: yaoling          # 標準模式
+    #- schema: yaoling_fluency  # 語流模式：整句連打、自動成詞
+    # - schema: yaoling_essence  # 整句模式：整句連打、固定候選
+    # - schema: yaoling_extreme  # 五碼模式：全碼五碼，日月規則
