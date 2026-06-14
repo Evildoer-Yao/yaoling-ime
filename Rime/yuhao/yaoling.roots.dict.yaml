@@ -1,0 +1,12 @@
+# encoding: utf-8
+---
+name: "yaoling.roots"
+version: "20260310"
+sort: original
+columns:
+  - text
+  - code
+...
+
+妖灵字根編碼提示	/yl
+輸入對應大碼字母	/yl
