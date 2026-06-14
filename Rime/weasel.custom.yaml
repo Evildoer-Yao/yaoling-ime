@@ -1,0 +1,1785 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sun May  3 23:54:15 2026"
+  rime_version: 1.13.1
+patch:
+  "style/color_scheme": nord
+  'preset_color_schemes/compact_capsule_blue':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊蓝'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x1077D07B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x1077D0CC
+  'preset_color_schemes/compact_capsule_blue_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊蓝「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x1077D029
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x1077D0CC
+  'preset_color_schemes/compact_capsule_blue_dim':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊深蓝'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x024D8E7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x024D8ECC
+  'preset_color_schemes/compact_capsule_blue_dim_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊深蓝「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x024D8E29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x024D8ECC
+  'preset_color_schemes/compact_capsule_cyan':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊青'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x4EDBB17B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x4EDBB1CC
+  'preset_color_schemes/compact_capsule_cyan_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊青「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x4EDBB129
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x4EDBB1CC
+  'preset_color_schemes/compact_capsule_red':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊红'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xD232427B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xD23242CC
+  'preset_color_schemes/compact_capsule_red_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊红「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xD2324229
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xD23242CC
+  'preset_color_schemes/compact_capsule_orange':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊橙'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xFF6F007B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xFF6F00CC
+  'preset_color_schemes/compact_capsule_orange_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊橙「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xFF6F0029
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xFF6F00CC
+  'preset_color_schemes/compact_capsule_yellow':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊黄'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xFFC1077B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0xFFC107CC
+  'preset_color_schemes/compact_capsule_yellow_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊黄「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xFFC10729
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0xFFC107CC
+  'preset_color_schemes/compact_capsule_purple':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊紫'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x763CE97B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x763CE9CC
+  'preset_color_schemes/compact_capsule_purple_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊紫「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x763CE929
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x763CE9CC
+  'preset_color_schemes/compact_capsule_magenta':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊品'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xD633847B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xD63384CC
+  'preset_color_schemes/compact_capsule_magenta_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊品「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xD6338429
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xD63384CC
+  'preset_color_schemes/compact_capsule_green':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊绿'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x52E6547B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x52E654CC
+  'preset_color_schemes/compact_capsule_green_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊绿「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x52E65429
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x52E654CC
+  'preset_color_schemes/compact_capsule_green_grass':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊草绿'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x1987547B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x198754CC
+  'preset_color_schemes/compact_capsule_green_grass_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊草绿「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x19875429
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x198754CC
+  'preset_color_schemes/compact_capsule_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊黑暗'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x312F2F7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x312F2FCC
+  'preset_color_schemes/compact_capsule_dark_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊黑暗「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x312F2F29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x312F2FCC
+  'preset_color_schemes/compact_capsule_rain':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊雨云'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xBCCCE07B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0xBCCCE0CC
+  'preset_color_schemes/compact_capsule_rain_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊雨云「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xBCCCE029
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0xBCCCE0CC
+  'preset_color_schemes/compact_capsule_rosewood':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊玫瑰'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xCA15517B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xCA1551CC
+  'preset_color_schemes/compact_capsule_rosewood_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊玫瑰「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xCA155129
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xCA1551CC
+  'preset_color_schemes/compact_capsule_dust_rose':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊尘玫'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xC177677B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xC17767CC
+  'preset_color_schemes/compact_capsule_dust_rose_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊尘玫「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xC1776729
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xC17767CC
+  'preset_color_schemes/compact_capsule_tomato':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊西红柿'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xFB4D3D7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xFB4D3DCC
+  'preset_color_schemes/compact_capsule_tomato_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊西红柿「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xFB4D3D29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xFB4D3DCC
+  'preset_color_schemes/compact_capsule_sky':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊天'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x4DD1EC7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x4DD1ECCC
+  'preset_color_schemes/compact_capsule_sky_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊天「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x4DD1EC29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x4DD1ECCC
+  'preset_color_schemes/compact_capsule_mint_leaf':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊薄荷'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x03CEA47B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x03CEA4CC
+  'preset_color_schemes/compact_capsule_mint_leaf_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊薄荷「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x03CEA429
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0x03CEA4CC
+  'preset_color_schemes/compact_capsule_dusk_blue':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊暮蓝'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x3459957B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x345995CC
+  'preset_color_schemes/compact_capsule_dusk_blue_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊暮蓝「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x34599529
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x345995CC
+  'preset_color_schemes/compact_capsule_steel_blue':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊钢铁蓝'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x6D98BA7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x6D98BACC
+  'preset_color_schemes/compact_capsule_steel_blue_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊钢铁蓝「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x6D98BA29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x6D98BACC
+  'preset_color_schemes/compact_capsule_tan':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊香槟金'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xD3B99F7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0xD3B99FCC
+  'preset_color_schemes/compact_capsule_tan_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊香槟金「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xD3B99F29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0x15191DFF
+    hilited_candidate_back_color: 0xD3B99FCC
+  'preset_color_schemes/compact_capsule_coffee_bean':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊咖啡豆'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x2102037B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x210203CC
+  'preset_color_schemes/compact_capsule_coffee_bean_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊咖啡豆「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x21020329
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x210203CC
+  'preset_color_schemes/compact_capsule_raspberry':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊树莓'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xD811597B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xD81159CC
+  'preset_color_schemes/compact_capsule_raspberry_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊树莓「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xD8115929
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xD81159CC
+  'preset_color_schemes/compact_capsule_vintage':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊葡萄酒'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x8F2D567B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x8F2D56CC
+  'preset_color_schemes/compact_capsule_vintage_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊葡萄酒「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x8F2D5629
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x8F2D56CC
+  'preset_color_schemes/compact_capsule_blue_slate':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊岩蓝'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x4F62727B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x4F6272CC
+  'preset_color_schemes/compact_capsule_blue_slate_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊岩蓝「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x4F627229
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x4F6272CC
+  'preset_color_schemes/compact_capsule_mauve_bark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊紫灰棕'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x6C534E7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x6C534ECC
+  'preset_color_schemes/compact_capsule_mauve_bark_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊紫灰棕「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x6C534E29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x6C534ECC
+  'preset_color_schemes/compact_capsule_royal_violet':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊皇紫'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x7B2CBF7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x7B2CBFCC
+  'preset_color_schemes/compact_capsule_royal_violet_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊皇紫「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x7B2CBF29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x7B2CBFCC
+  'preset_color_schemes/compact_capsule_mavue_magic':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊魔法紫'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xC77DFF7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xC77DFFCC
+  'preset_color_schemes/compact_capsule_mavue_magic_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊魔法紫「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xC77DFF29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xC77DFFCC
+  'preset_color_schemes/compact_capsule_indigo_violet':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊靛紫'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x5A189A7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x5A189ACC
+  'preset_color_schemes/compact_capsule_indigo_violet_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊靛紫「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x5A189A29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x5A189ACC
+  'preset_color_schemes/compact_capsule_brown_red':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊红棕'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x9E2A2B7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x9E2A2BCC
+  'preset_color_schemes/compact_capsule_brown_red_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊红棕「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x9E2A2B29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x9E2A2BCC
+  'preset_color_schemes/compact_capsule_amaranth':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊苋红'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0xDD2D4A7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xDD2D4ACC
+  'preset_color_schemes/compact_capsule_amaranth_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊苋红「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0xDD2D4A29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0xDD2D4ACC
+  'preset_color_schemes/compact_capsule_crushed_berry':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊烂梅'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x880D1E7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x880D1ECC
+  'preset_color_schemes/compact_capsule_crushed_berry_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊烂梅「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x880D1E29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x880D1ECC
+  'preset_color_schemes/compact_capsule_sage_green':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊鼠尾草'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x6A994E7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x6A994ECC
+  'preset_color_schemes/compact_capsule_sage_green_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊鼠尾草「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x6A994E29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x6A994ECC
+  'preset_color_schemes/compact_capsule_muted_teal':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊柔和灰青'
+    text_color: 0x15191DFF
+    back_color: 0xFFFFFFCC
+    border_color: 0x00000000
+    shadow_color: 0x81B29A7B
+    candidate_text_color: 0x15191DFF
+    hilited_label_color: 0xF8F9FA80
+    hilited_text_color: 0x15191DFF
+    hilited_back_color: 0xFFFFFFCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x81B29ACC
+  'preset_color_schemes/compact_capsule_muted_teal_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊柔和灰青「暗」'
+    text_color: 0xF8F9FAFF
+    back_color: 0x4C555DCC
+    border_color: 0x00000000
+    shadow_color: 0x81B29A29
+    candidate_text_color: 0xF8F9FAFF
+    hilited_label_color: 0x6C757D80
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_candidate_text_color: 0xF8F9FAFF
+    hilited_candidate_back_color: 0x81B29ACC
+  'preset_color_schemes/compact_capsule_arctic_glass':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊北境晨雾'
+    text_color: 0x1F2A3DFF
+    candidate_text_color: 0x2E3A4FFF
+    comment_text_color: 0x64748BCC
+    label_color: 0x7A8CA6CC
+    back_color: 0xF4F8FFCC
+    border_color: 0xC9D8F2AA
+    shadow_color: 0xB9CCE859
+    hilited_text_color: 0x132238FF
+    hilited_back_color: 0xE4EEFBCC
+    hilited_comment_text_color: 0x4A5E7FCC
+    hilited_label_color: 0x5B739BCC
+    hilited_candidate_text_color: 0xF5FAFFFF
+    hilited_candidate_back_color: 0x4D7EC8CC
+    hilited_candidate_label_color: 0xDCEBFFFF
+    nextpage_color: 0x4D7EC8CC
+    prevpage_color: 0x7FA4D8CC
+  
+  'preset_color_schemes/compact_capsule_arctic_glass_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊北境晨雾「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x64748BCC
+    label_color: 0x7A8CA6CC
+    back_color: 0x4C555DCC
+    border_color: 0xC9D8F2AA
+    shadow_color: 0xB9CCE838
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x4A5E7FCC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xF5FAFFFF
+    hilited_candidate_back_color: 0x4D7EC8CC
+    hilited_candidate_label_color: 0xDCEBFFFF
+    nextpage_color: 0x4D7EC8CC
+    prevpage_color: 0x7FA4D8CC
+  
+  'preset_color_schemes/compact_capsule_moonlit_ink':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊月夜墨海'
+    text_color: 0xE7ECF7FF
+    candidate_text_color: 0xCBD5E8FF
+    comment_text_color: 0x94A3B8CC
+    label_color: 0x8A9AB5CC
+    back_color: 0x131A2BCC
+    border_color: 0x2A3558B3
+    shadow_color: 0x05070D93
+    hilited_text_color: 0xFFFFFFFF
+    hilited_back_color: 0x1E2B47CC
+    hilited_comment_text_color: 0xAEC2E6CC
+    hilited_label_color: 0x9EB8E0CC
+    hilited_candidate_text_color: 0xF4F8FFFF
+    hilited_candidate_back_color: 0x3F5FA9CC
+    hilited_candidate_label_color: 0xDCE6FFFF
+    nextpage_color: 0x6E8FD9CC
+    prevpage_color: 0x4764A8CC
+  
+  'preset_color_schemes/compact_capsule_moonlit_ink_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊月夜墨海「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x94A3B8CC
+    label_color: 0x8A9AB5CC
+    back_color: 0x4C555DCC
+    border_color: 0x2A3558B3
+    shadow_color: 0x05070D38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xAEC2E6CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xF4F8FFFF
+    hilited_candidate_back_color: 0x3F5FA9CC
+    hilited_candidate_label_color: 0xDCE6FFFF
+    nextpage_color: 0x6E8FD9CC
+    prevpage_color: 0x4764A8CC
+  
+  'preset_color_schemes/compact_capsule_sakura_milk':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊樱雪奶霜'
+    text_color: 0x3A2330FF
+    candidate_text_color: 0x4F3040FF
+    comment_text_color: 0x9A7187CC
+    label_color: 0xB3819CCC
+    back_color: 0xFFF2F7CC
+    border_color: 0xF2CBDEB3
+    shadow_color: 0xE7AFCA66
+    hilited_text_color: 0x42182EFF
+    hilited_back_color: 0xFFE2EFCC
+    hilited_comment_text_color: 0xA65D80CC
+    hilited_label_color: 0xC26B95CC
+    hilited_candidate_text_color: 0xFFF8FDFF
+    hilited_candidate_back_color: 0xD85793CC
+    hilited_candidate_label_color: 0xFFE3F1FF
+    nextpage_color: 0xD85793CC
+    prevpage_color: 0xE187B1CC
+  
+  'preset_color_schemes/compact_capsule_sakura_milk_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊樱雪奶霜「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x9A7187CC
+    label_color: 0xB3819CCC
+    back_color: 0x4C555DCC
+    border_color: 0xF2CBDEB3
+    shadow_color: 0xE7AFCA38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xA65D80CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF8FDFF
+    hilited_candidate_back_color: 0xD85793CC
+    hilited_candidate_label_color: 0xFFE3F1FF
+    nextpage_color: 0xD85793CC
+    prevpage_color: 0xE187B1CC
+  
+  'preset_color_schemes/compact_capsule_forest_fog':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊林雾青苔'
+    text_color: 0x1F3328FF
+    candidate_text_color: 0x2D4B3DFF
+    comment_text_color: 0x587466CC
+    label_color: 0x6A8B7ACC
+    back_color: 0xEEF7F1CC
+    border_color: 0xBFD9CAB3
+    shadow_color: 0x8BB39A4A
+    hilited_text_color: 0x1A2E25FF
+    hilited_back_color: 0xDEEEE3CC
+    hilited_comment_text_color: 0x4A6A5BFF
+    hilited_label_color: 0x5C7F6CFF
+    hilited_candidate_text_color: 0xF1FFF6FF
+    hilited_candidate_back_color: 0x2E7D5ECC
+    hilited_candidate_label_color: 0xCDEEDCFF
+    nextpage_color: 0x2E7D5ECC
+    prevpage_color: 0x5FA286CC
+  
+  'preset_color_schemes/compact_capsule_forest_fog_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊林雾青苔「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x587466CC
+    label_color: 0x6A8B7ACC
+    back_color: 0x4C555DCC
+    border_color: 0xBFD9CAB3
+    shadow_color: 0x8BB39A38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x4A6A5BFF
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xF1FFF6FF
+    hilited_candidate_back_color: 0x2E7D5ECC
+    hilited_candidate_label_color: 0xCDEEDCFF
+    nextpage_color: 0x2E7D5ECC
+    prevpage_color: 0x5FA286CC
+  
+  'preset_color_schemes/compact_capsule_amber_night':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊琥珀夜灯'
+    text_color: 0xFFE7B8FF
+    candidate_text_color: 0xF8DDA3FF
+    comment_text_color: 0xD0A769CC
+    label_color: 0xC79853CC
+    back_color: 0x2B1B0FCC
+    border_color: 0x5E3B1FB3
+    shadow_color: 0x00000084
+    hilited_text_color: 0xFFF0D0FF
+    hilited_back_color: 0x3B2412CC
+    hilited_comment_text_color: 0xE6B96DFF
+    hilited_label_color: 0xF1BE66FF
+    hilited_candidate_text_color: 0x2B1908FF
+    hilited_candidate_back_color: 0xFFB347CC
+    hilited_candidate_label_color: 0x6A3900FF
+    nextpage_color: 0xFFB347CC
+    prevpage_color: 0xC18433CC
+  
+  'preset_color_schemes/compact_capsule_amber_night_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊琥珀夜灯「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0xD0A769CC
+    label_color: 0xC79853CC
+    back_color: 0x4C555DCC
+    border_color: 0x5E3B1FB3
+    shadow_color: 0x00000038
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xE6B96DFF
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0x2B1908FF
+    hilited_candidate_back_color: 0xFFB347CC
+    hilited_candidate_label_color: 0x6A3900FF
+    nextpage_color: 0xFFB347CC
+    prevpage_color: 0xC18433CC
+  
+  'preset_color_schemes/compact_capsule_ocean_current':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊潮汐深潜'
+    text_color: 0xD8F5FCFF
+    candidate_text_color: 0xBEEAF5FF
+    comment_text_color: 0x7FC6D8CC
+    label_color: 0x73C0D4CC
+    back_color: 0x0E2A33CC
+    border_color: 0x1F5B6BB3
+    shadow_color: 0x05161BA1
+    hilited_text_color: 0xF0FCFFFF
+    hilited_back_color: 0x143B49CC
+    hilited_comment_text_color: 0x95DFF2CC
+    hilited_label_color: 0x8BE6FCCC
+    hilited_candidate_text_color: 0x052026FF
+    hilited_candidate_back_color: 0x58D6F3CC
+    hilited_candidate_label_color: 0x0D3945FF
+    nextpage_color: 0x58D6F3CC
+    prevpage_color: 0x2C9FBDCC
+  
+  'preset_color_schemes/compact_capsule_ocean_current_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊潮汐深潜「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x7FC6D8CC
+    label_color: 0x73C0D4CC
+    back_color: 0x4C555DCC
+    border_color: 0x1F5B6BB3
+    shadow_color: 0x05161B38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x95DFF2CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0x052026FF
+    hilited_candidate_back_color: 0x58D6F3CC
+    hilited_candidate_label_color: 0x0D3945FF
+    nextpage_color: 0x58D6F3CC
+    prevpage_color: 0x2C9FBDCC
+  
+  'preset_color_schemes/compact_capsule_plum_wine':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊梅酿绛紫'
+    text_color: 0xF6E7F5FF
+    candidate_text_color: 0xE6CEE4FF
+    comment_text_color: 0xBC92B8CC
+    label_color: 0xC393BCFF
+    back_color: 0x2A1129CC
+    border_color: 0x5A2A5BB3
+    shadow_color: 0x10050F8C
+    hilited_text_color: 0xFFEFFFFF
+    hilited_back_color: 0x3A1A3BCC
+    hilited_comment_text_color: 0xD8A7D2CC
+    hilited_label_color: 0xE1A5D6CC
+    hilited_candidate_text_color: 0xFFF5FFFF
+    hilited_candidate_back_color: 0xB84BA6CC
+    hilited_candidate_label_color: 0xFFD4F7FF
+    nextpage_color: 0xB84BA6CC
+    prevpage_color: 0x8D3C7FCC
+  
+  'preset_color_schemes/compact_capsule_plum_wine_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊梅酿绛紫「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0xBC92B8CC
+    label_color: 0xC393BCFF
+    back_color: 0x4C555DCC
+    border_color: 0x5A2A5BB3
+    shadow_color: 0x10050F38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xD8A7D2CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF5FFFF
+    hilited_candidate_back_color: 0xB84BA6CC
+    hilited_candidate_label_color: 0xFFD4F7FF
+    nextpage_color: 0xB84BA6CC
+    prevpage_color: 0x8D3C7FCC
+  
+  'preset_color_schemes/compact_capsule_metal_slate':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊钛灰锋面'
+    text_color: 0xEAF1F8FF
+    candidate_text_color: 0xD4DEE9FF
+    comment_text_color: 0xA8B3C3CC
+    label_color: 0x9EABBDCC
+    back_color: 0x202734CC
+    border_color: 0x4B5568B3
+    shadow_color: 0x0B0E1484
+    hilited_text_color: 0xFFFFFFFF
+    hilited_back_color: 0x2A3344CC
+    hilited_comment_text_color: 0xBCC9DDCC
+    hilited_label_color: 0xB5C4DBCC
+    hilited_candidate_text_color: 0x111722FF
+    hilited_candidate_back_color: 0xB0C4DECC
+    hilited_candidate_label_color: 0x37465BFF
+    nextpage_color: 0x9CB2CFCC
+    prevpage_color: 0x7F95B3CC
+  
+  'preset_color_schemes/compact_capsule_metal_slate_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊钛灰锋面「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0xA8B3C3CC
+    label_color: 0x9EABBDCC
+    back_color: 0x4C555DCC
+    border_color: 0x4B5568B3
+    shadow_color: 0x0B0E1438
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xBCC9DDCC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0x111722FF
+    hilited_candidate_back_color: 0xB0C4DECC
+    hilited_candidate_label_color: 0x37465BFF
+    nextpage_color: 0x9CB2CFCC
+    prevpage_color: 0x7F95B3CC
+  
+  'preset_color_schemes/compact_capsule_caramel_mocha':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊焦糖摩卡'
+    text_color: 0x3B261BFF
+    candidate_text_color: 0x55372AFF
+    comment_text_color: 0x926F5DCC
+    label_color: 0xA17D69CC
+    back_color: 0xFBEFDECC
+    border_color: 0xE3C8AAB3
+    shadow_color: 0xC89A6E59
+    hilited_text_color: 0x472A17FF
+    hilited_back_color: 0xF4DFC4CC
+    hilited_comment_text_color: 0x8C5C40FF
+    hilited_label_color: 0xA16642FF
+    hilited_candidate_text_color: 0xFFF8F1FF
+    hilited_candidate_back_color: 0xB56A3ECC
+    hilited_candidate_label_color: 0xF4D6C5FF
+    nextpage_color: 0xB56A3ECC
+    prevpage_color: 0xD08A5ECC
+  
+  'preset_color_schemes/compact_capsule_caramel_mocha_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊焦糖摩卡「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x926F5DCC
+    label_color: 0xA17D69CC
+    back_color: 0x4C555DCC
+    border_color: 0xE3C8AAB3
+    shadow_color: 0xC89A6E38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x8C5C40FF
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF8F1FF
+    hilited_candidate_back_color: 0xB56A3ECC
+    hilited_candidate_label_color: 0xF4D6C5FF
+    nextpage_color: 0xB56A3ECC
+    prevpage_color: 0xD08A5ECC
+  
+  'preset_color_schemes/compact_capsule_neon_cyber':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊霓虹电路'
+    text_color: 0xDFFBFFFF
+    candidate_text_color: 0xB3F2F7FF
+    comment_text_color: 0x79C9D1CC
+    label_color: 0x73F0E2CC
+    back_color: 0x0A1720D9
+    border_color: 0x1C515FB3
+    shadow_color: 0x010A0FB0
+    hilited_text_color: 0xE8FFFFFF
+    hilited_back_color: 0x102736E6
+    hilited_comment_text_color: 0x8FE6F1CC
+    hilited_label_color: 0x67FFE7CC
+    hilited_candidate_text_color: 0x061217FF
+    hilited_candidate_back_color: 0x32E6D7CC
+    hilited_candidate_label_color: 0x0D3B3DFF
+    nextpage_color: 0x32E6D7CC
+    prevpage_color: 0x1FBFAFCC
+  
+  'preset_color_schemes/compact_capsule_neon_cyber_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊霓虹电路「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x79C9D1CC
+    label_color: 0x73F0E2CC
+    back_color: 0x4C555DCC
+    border_color: 0x1C515FB3
+    shadow_color: 0x010A0F38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x8FE6F1CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0x061217FF
+    hilited_candidate_back_color: 0x32E6D7CC
+    hilited_candidate_label_color: 0x0D3B3DFF
+    nextpage_color: 0x32E6D7CC
+    prevpage_color: 0x1FBFAFCC
+  
+  'preset_color_schemes/compact_capsule_lavender_mist':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊薰衣晨雾'
+    text_color: 0x2F2846FF
+    candidate_text_color: 0x43395FFF
+    comment_text_color: 0x7E72A1CC
+    label_color: 0x9A8EB9CC
+    back_color: 0xF7F3FFCC
+    border_color: 0xDCCEF4B3
+    shadow_color: 0xB8A6DE59
+    hilited_text_color: 0x291F43FF
+    hilited_back_color: 0xECE5FCCC
+    hilited_comment_text_color: 0x6F5E97CC
+    hilited_label_color: 0x8A74B3CC
+    hilited_candidate_text_color: 0xFBF8FFFF
+    hilited_candidate_back_color: 0x8A67D5CC
+    hilited_candidate_label_color: 0xE9DCFFFF
+    nextpage_color: 0x8A67D5CC
+    prevpage_color: 0xAA87E0CC
+  
+  'preset_color_schemes/compact_capsule_lavender_mist_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊薰衣晨雾「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x7E72A1CC
+    label_color: 0x9A8EB9CC
+    back_color: 0x4C555DCC
+    border_color: 0xDCCEF4B3
+    shadow_color: 0xB8A6DE38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x6F5E97CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFBF8FFFF
+    hilited_candidate_back_color: 0x8A67D5CC
+    hilited_candidate_label_color: 0xE9DCFFFF
+    nextpage_color: 0x8A67D5CC
+    prevpage_color: 0xAA87E0CC
+  
+  'preset_color_schemes/compact_capsule_maple_sunset':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊枫糖夕照'
+    text_color: 0x3D2218FF
+    candidate_text_color: 0x583224FF
+    comment_text_color: 0xA06B4DCC
+    label_color: 0xB77A59CC
+    back_color: 0xFFEFE4CC
+    border_color: 0xF0CDAFB3
+    shadow_color: 0xD79C6A59
+    hilited_text_color: 0x4A281BFF
+    hilited_back_color: 0xFCE0CDCC
+    hilited_comment_text_color: 0xA35D36CC
+    hilited_label_color: 0xB66C40CC
+    hilited_candidate_text_color: 0xFFF8F3FF
+    hilited_candidate_back_color: 0xD96A3BCC
+    hilited_candidate_label_color: 0xFFDCCBFF
+    nextpage_color: 0xD96A3BCC
+    prevpage_color: 0xE48D63CC
+  
+  'preset_color_schemes/compact_capsule_maple_sunset_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊枫糖夕照「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0xA06B4DCC
+    label_color: 0xB77A59CC
+    back_color: 0x4C555DCC
+    border_color: 0xF0CDAFB3
+    shadow_color: 0xD79C6A38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xA35D36CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF8F3FF
+    hilited_candidate_back_color: 0xD96A3BCC
+    hilited_candidate_label_color: 0xFFDCCBFF
+    nextpage_color: 0xD96A3BCC
+    prevpage_color: 0xE48D63CC
+  
+  'preset_color_schemes/compact_capsule_glacier_mint':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊冰川薄荷'
+    text_color: 0x183338FF
+    candidate_text_color: 0x205057FF
+    comment_text_color: 0x4A7A84CC
+    label_color: 0x5C98A2CC
+    back_color: 0xE9FBF8CC
+    border_color: 0xB8E5DEB3
+    shadow_color: 0x7FC5B859
+    hilited_text_color: 0x123138FF
+    hilited_back_color: 0xD7F2EECC
+    hilited_comment_text_color: 0x3E7882CC
+    hilited_label_color: 0x4E8E99CC
+    hilited_candidate_text_color: 0xF2FFFFFF
+    hilited_candidate_back_color: 0x2BA8A8CC
+    hilited_candidate_label_color: 0xC9F5F3FF
+    nextpage_color: 0x2BA8A8CC
+    prevpage_color: 0x66BFC0CC
+  
+  'preset_color_schemes/compact_capsule_glacier_mint_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊冰川薄荷「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x4A7A84CC
+    label_color: 0x5C98A2CC
+    back_color: 0x4C555DCC
+    border_color: 0xB8E5DEB3
+    shadow_color: 0x7FC5B838
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x3E7882CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xF2FFFFFF
+    hilited_candidate_back_color: 0x2BA8A8CC
+    hilited_candidate_label_color: 0xC9F5F3FF
+    nextpage_color: 0x2BA8A8CC
+    prevpage_color: 0x66BFC0CC
+  
+  'preset_color_schemes/compact_capsule_bamboo_rain':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊竹雨青岚'
+    text_color: 0x233121FF
+    candidate_text_color: 0x354A33FF
+    comment_text_color: 0x6A8367CC
+    label_color: 0x7B9A77CC
+    back_color: 0xF1F7EDCC
+    border_color: 0xCBDEC3B3
+    shadow_color: 0x9DB89A59
+    hilited_text_color: 0x223520FF
+    hilited_back_color: 0xE2EDDACC
+    hilited_comment_text_color: 0x5A7A58CC
+    hilited_label_color: 0x6D8E6BFF
+    hilited_candidate_text_color: 0xF7FFF3FF
+    hilited_candidate_back_color: 0x4A8A4ECC
+    hilited_candidate_label_color: 0xD8F0D7FF
+    nextpage_color: 0x4A8A4ECC
+    prevpage_color: 0x78AA7BCC
+  
+  'preset_color_schemes/compact_capsule_bamboo_rain_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊竹雨青岚「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x6A8367CC
+    label_color: 0x7B9A77CC
+    back_color: 0x4C555DCC
+    border_color: 0xCBDEC3B3
+    shadow_color: 0x9DB89A38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x5A7A58CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xF7FFF3FF
+    hilited_candidate_back_color: 0x4A8A4ECC
+    hilited_candidate_label_color: 0xD8F0D7FF
+    nextpage_color: 0x4A8A4ECC
+    prevpage_color: 0x78AA7BCC
+  
+  'preset_color_schemes/compact_capsule_desert_dawn':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊荒漠曦金'
+    text_color: 0x3E2E1CFF
+    candidate_text_color: 0x5F482FFF
+    comment_text_color: 0x9C7C54CC
+    label_color: 0xB28B5DCC
+    back_color: 0xFFF5E6CC
+    border_color: 0xEFDABBB3
+    shadow_color: 0xD3B07D59
+    hilited_text_color: 0x4A351DFF
+    hilited_back_color: 0xFCE9CDCC
+    hilited_comment_text_color: 0x9E7242CC
+    hilited_label_color: 0xB47F3FFF
+    hilited_candidate_text_color: 0xFFF8EDFF
+    hilited_candidate_back_color: 0xD89A3DCC
+    hilited_candidate_label_color: 0xFFE4BEFF
+    nextpage_color: 0xD89A3DCC
+    prevpage_color: 0xE5B66BCC
+  
+  'preset_color_schemes/compact_capsule_desert_dawn_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊荒漠曦金「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x9C7C54CC
+    label_color: 0xB28B5DCC
+    back_color: 0x4C555DCC
+    border_color: 0xEFDABBB3
+    shadow_color: 0xD3B07D38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x9E7242CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF8EDFF
+    hilited_candidate_back_color: 0xD89A3DCC
+    hilited_candidate_label_color: 0xFFE4BEFF
+    nextpage_color: 0xD89A3DCC
+    prevpage_color: 0xE5B66BCC
+  
+  'preset_color_schemes/compact_capsule_cobalt_storm':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊钴蓝雷雨'
+    text_color: 0xE6EEFFFF
+    candidate_text_color: 0xCEDAF4FF
+    comment_text_color: 0x9AAFD3CC
+    label_color: 0x88A1D4CC
+    back_color: 0x1A263FCC
+    border_color: 0x304D7CB3
+    shadow_color: 0x040A16A1
+    hilited_text_color: 0xF2F7FFFF
+    hilited_back_color: 0x24375ACC
+    hilited_comment_text_color: 0xAEC5E9CC
+    hilited_label_color: 0x9BB7E6CC
+    hilited_candidate_text_color: 0x0B1324FF
+    hilited_candidate_back_color: 0x6C8FE3CC
+    hilited_candidate_label_color: 0xD8E4FFFF
+    nextpage_color: 0x6C8FE3CC
+    prevpage_color: 0x4E70C2CC
+  
+  'preset_color_schemes/compact_capsule_cobalt_storm_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊钴蓝雷雨「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x9AAFD3CC
+    label_color: 0x88A1D4CC
+    back_color: 0x4C555DCC
+    border_color: 0x304D7CB3
+    shadow_color: 0x040A1638
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xAEC5E9CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0x0B1324FF
+    hilited_candidate_back_color: 0x6C8FE3CC
+    hilited_candidate_label_color: 0xD8E4FFFF
+    nextpage_color: 0x6C8FE3CC
+    prevpage_color: 0x4E70C2CC
+  
+  'preset_color_schemes/compact_capsule_peach_fizz':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊蜜桃苏打'
+    text_color: 0x3E2921FF
+    candidate_text_color: 0x5A3A2DFF
+    comment_text_color: 0x9A6A57CC
+    label_color: 0xB07A64CC
+    back_color: 0xFFF3ECCC
+    border_color: 0xF0D2C2B3
+    shadow_color: 0xDBA98C59
+    hilited_text_color: 0x4A2D22FF
+    hilited_back_color: 0xFEE3D5CC
+    hilited_comment_text_color: 0xA45E43CC
+    hilited_label_color: 0xBA6B49CC
+    hilited_candidate_text_color: 0xFFF9F4FF
+    hilited_candidate_back_color: 0xE78459CC
+    hilited_candidate_label_color: 0xFFE0D3FF
+    nextpage_color: 0xE78459CC
+    prevpage_color: 0xF0A67DCC
+  
+  'preset_color_schemes/compact_capsule_peach_fizz_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊蜜桃苏打「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x9A6A57CC
+    label_color: 0xB07A64CC
+    back_color: 0x4C555DCC
+    border_color: 0xF0D2C2B3
+    shadow_color: 0xDBA98C38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xA45E43CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF9F4FF
+    hilited_candidate_back_color: 0xE78459CC
+    hilited_candidate_label_color: 0xFFE0D3FF
+    nextpage_color: 0xE78459CC
+    prevpage_color: 0xF0A67DCC
+  
+  'preset_color_schemes/compact_capsule_crimson_velvet':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊绯红天鹅绒'
+    text_color: 0xFDECF3FF
+    candidate_text_color: 0xF0D4E0FF
+    comment_text_color: 0xCFA4B6CC
+    label_color: 0xD48EA9CC
+    back_color: 0x331722CC
+    border_color: 0x6A3148B3
+    shadow_color: 0x11050B93
+    hilited_text_color: 0xFFF4F8FF
+    hilited_back_color: 0x452033CC
+    hilited_comment_text_color: 0xE0B5C7CC
+    hilited_label_color: 0xE49AB9CC
+    hilited_candidate_text_color: 0xFFF7FBFF
+    hilited_candidate_back_color: 0xC7487ACC
+    hilited_candidate_label_color: 0xFFD6E8FF
+    nextpage_color: 0xC7487ACC
+    prevpage_color: 0x9F3B64CC
+  
+  'preset_color_schemes/compact_capsule_crimson_velvet_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊绯红天鹅绒「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0xCFA4B6CC
+    label_color: 0xD48EA9CC
+    back_color: 0x4C555DCC
+    border_color: 0x6A3148B3
+    shadow_color: 0x11050B38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xE0B5C7CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF7FBFF
+    hilited_candidate_back_color: 0xC7487ACC
+    hilited_candidate_label_color: 0xFFD6E8FF
+    nextpage_color: 0xC7487ACC
+    prevpage_color: 0x9F3B64CC
+  
+  'preset_color_schemes/compact_capsule_midnight_pine':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊午夜松针'
+    text_color: 0xDCF7EAFF
+    candidate_text_color: 0xBDE8D5FF
+    comment_text_color: 0x7FB79DCC
+    label_color: 0x6ECAA5CC
+    back_color: 0x12241FCC
+    border_color: 0x245043B3
+    shadow_color: 0x020E0BA1
+    hilited_text_color: 0xE6FFF3FF
+    hilited_back_color: 0x1A332CCC
+    hilited_comment_text_color: 0x8DCEB3CC
+    hilited_label_color: 0x7CE0B6CC
+    hilited_candidate_text_color: 0x072018FF
+    hilited_candidate_back_color: 0x3FB488CC
+    hilited_candidate_label_color: 0xC7F3DDFF
+    nextpage_color: 0x3FB488CC
+    prevpage_color: 0x2D8D6BCC
+  
+  'preset_color_schemes/compact_capsule_midnight_pine_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊午夜松针「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0x7FB79DCC
+    label_color: 0x6ECAA5CC
+    back_color: 0x4C555DCC
+    border_color: 0x245043B3
+    shadow_color: 0x020E0B38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0x8DCEB3CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0x072018FF
+    hilited_candidate_back_color: 0x3FB488CC
+    hilited_candidate_label_color: 0xC7F3DDFF
+    nextpage_color: 0x3FB488CC
+    prevpage_color: 0x2D8D6BCC
+  
+  'preset_color_schemes/compact_capsule_amethyst_aurora':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊紫晶极光'
+    text_color: 0xF1E9FFFF
+    candidate_text_color: 0xE0CFFFFF
+    comment_text_color: 0xB69BD0CC
+    label_color: 0xC18CE4CC
+    back_color: 0x26163ACC
+    border_color: 0x56357CB3
+    shadow_color: 0x10071A93
+    hilited_text_color: 0xFCF6FFFF
+    hilited_back_color: 0x341F52CC
+    hilited_comment_text_color: 0xC9ABE8CC
+    hilited_label_color: 0xD1A0F6CC
+    hilited_candidate_text_color: 0xFFF8FFFF
+    hilited_candidate_back_color: 0x9A57E2CC
+    hilited_candidate_label_color: 0xEEDBFFFF
+    nextpage_color: 0x9A57E2CC
+    prevpage_color: 0x7742B5CC
+  
+  'preset_color_schemes/compact_capsule_amethyst_aurora_dark':
+    author: 'KasukabeTsumugi <futami16237@gmail.com>'
+    color_format: rgba
+    name: '小胶囊紫晶极光「暗」'
+    text_color: 0xF8F9FAFF
+    candidate_text_color: 0xF8F9FAFF
+    comment_text_color: 0xB69BD0CC
+    label_color: 0xC18CE4CC
+    back_color: 0x4C555DCC
+    border_color: 0x56357CB3
+    shadow_color: 0x10071A38
+    hilited_text_color: 0xF8F9FAFF
+    hilited_back_color: 0x4C555DCC
+    hilited_comment_text_color: 0xC9ABE8CC
+    hilited_label_color: 0x6C757D80
+    hilited_candidate_text_color: 0xFFF8FFFF
+    hilited_candidate_back_color: 0x9A57E2CC
+    hilited_candidate_label_color: 0xEEDBFFFF
+    nextpage_color: 0x9A57E2CC
+    prevpage_color: 0x7742B5CC
+  'style/layout':
+    candidate_radius: 8
+    corner_radius: 8
+    hilite_padding_x: 10
+    hilite_padding_y: 6
+    margin_x: 0
+    margin_y: 0
+    border_width: 0
+    shadow_radius: 6
+    shadow_offset_x: 2
+    shadow_offset_y: 2
+  #'style/horizontal': true  # Windows 橫排候选栏
+  'style/inline_preedit': true
+    

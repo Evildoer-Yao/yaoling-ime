@@ -1,0 +1,146 @@
+# 妖灵输入法自定义补丁
+# 作者：Evildoer
+patch:
+  #################
+  #  一.  外观默认设置  #
+  #################
+  schema/name: 妖灵  # 方案名
+  menu/page_size: 6  # 每页候选數量
+  #menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  # 可选：自定义候选序号
+  #menu/alternative_select_labels: [ ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩ ]
+  #menu/alternative_select_labels: [ ❶,❷,❸,❹,❺,❻,❼,❽,❾,❿ ]
+  #menu/alternative_select_labels: [ ⓵,⓶,⓷,⓸,⓹,⓺,⓻,⓼,⓽,⓾ ]
+  #menu/alternative_select_labels: [ ㊀,㊁,㊂,㊃,㊄,㊅,㊆,㊇,㊈,㊉ ]
+  #menu/alternative_select_labels: [ ㈠,㈡,㈢,㈣,㈤,㈥,㈦,㈧,㈨,㈩ ]
+  #menu/alternative_select_labels: [ 🀇,🀈,🀉,🀊,🀋,🀌,🀍,🀎,🀏,🀄 ]
+  #menu/alternative_select_labels: [ Ⅰ,Ⅱ,Ⅲ,Ⅳ,Ⅴ,Ⅵ,Ⅶ,Ⅷ,Ⅸ,Ⅹ ]
+  menu/alternative_select_labels: [ 〡,〢,〣,〤,〥,〦,〧,〨,〩,〇 ]
+  #menu/alternative_select_labels: [ Ⓐ,Ⓑ,Ⓒ,Ⓓ,Ⓔ,Ⓕ,Ⓖ,Ⓗ,Ⓘ,Ⓙ ]
+  #menu/alternative_select_labels: [ ⓐ,ⓑ,ⓒ,ⓓ,ⓔ,ⓕ,ⓖ,ⓗ,ⓘ,ⓙ ]
+  #style/horizontal: true  # Windows 橫排候选栏
+  #style/candidate_list_layout: linear  # MacOS 橫排候选栏
+  style/inline_preedit: true  # 候选栏内置于输入界面(true)还是独立界面(false)
+  #style/preedit_type: preview  # 候选显示字母(composition)还是候选(preview)
+  #style/inline_candidate: true  # MacOS 候选显示字母(false)还是候选(true)
+  #style/layout/margin_x: -1 # Windows 关闭候选栏 
+  #style/alpha: 0.01  #  MacOS 隱藏候选栏
+  style/font_face: "Maruko Gothic CJKsc, 霞鹜文楷 GB 屏幕阅读版, Yuniversus, 遍黑体P1, 遍黑体P2"  # 字体
+  style/font_point: "14"  #字号
+  #speller/auto_select: false  # 自动选择唯一候选项(true)或否(false)
+
+  
+  ####################
+  #  二. 控制开关默认设置  #
+  ####################
+  # 以下开关，0为第一个，1为第二个，2为第三个
+  switches/@0/options:
+        - original
+        - yuhao_charset_prioritizer_common
+        - yuhao_charset_prioritizer_tonggui
+        - yuhao_charset_prioritizer_harmonic
+  switches/@0/states: [原始排序, 常用字先, 简体字先, 繁体字先]
+  switches/@0/reset: 2
+  switches/@1/states: [全汉字, 常用字, 简体字, 繁体字]
+  switches/@1/reset: 2
+  switches/@2/states: [字词同出, 全码出单]
+  switches/@2/reset: 1
+  switches/@3/options:
+        - yuhao_chaifen.off
+        - yuhao_chaifen.lv1  # 一重注解（拼音）
+        - yuhao_chaifen.lv2  # 三重注解（拆分 + 编码 + 拼音）
+        - yuhao_chaifen.lv3
+  switches/@3/states: [无注解, 拼音注解, 拆分注解, 完整注解]
+  switches/@3/reset: 1
+  switches/@4/states: [预测提示, 精确匹配]
+  switches/@4/reset: 1
+  switches/@5/states: [有空格简, 无空格简]
+  switches/@5/reset: 0
+  switches/@6/states: [显示兼容, 屏蔽兼容]
+  switches/@6/reset: 1
+  switches/@7/states: [陆标拆分, 臺標拆分]
+  switches/@7/reset: 0
+  switches/@8/states: [简保持, 简转繁]
+  switches/@8/reset: 0
+  switches/@9/states: [繁保持, 繁轉簡]
+  switches/@9/reset: 0
+  switches/@10/states: [中文, 西文]
+  switches/@10/reset: 0
+  switches/@11/states: ["半角", "全角"]
+  switches/@11/reset: 0
+  switches/@12/states: [。，, ．，]
+  switches/@12/reset: 0
+  reverse_lookup/tips: 〔双拼输入〕  # 反向查询提示
+  reverse_lookup/closing_tips: 〔双拼输入关闭〕
+  schema_name/chaifen_code_all_roots: false   # 注解
+  
+  
+  ###############
+  #       三.  统计       #
+  ###############
+  engine/translators/+:				#定制translator
+        - lua_translator@*input_statistics				# 统计输入速度等信息
+
+
+  ###############
+  #    五. 分号设置    #
+  ###############
+  # 1. 引擎处理器：分号兜底
+#  engine/processors/+:
+#    - lua_processor@force_semicolon_as_code
+
+
+  # 2. Speller：分号码元+自动选字
+#  speller/alphabet: zyxwvutsrqponmlkjihgfedcba/=;
+#  speller/initials: zyxwvutsrqponmlkjihgfedcba/=;
+#  speller/auto_select_pattern: "[qwrtypsdfghjklxcvbnm]{0,3}[aeiou]|[qwrtypsdfghjklxcvbnm]{4}|^;[a-z]$"  
+
+
+  # 3. 分号兜底处理器
+#  force_semicolon_as_code:
+#    lua: |
+#      function processor(key_event, env)
+#        local ctx = env.engine.context
+#        if key_event:repr() == "semicolon" and not ctx.ascii_mode then
+#          ctx.input = ctx.input .. ";"  # 分号作为码元加入输入，而非输出标点
+#          key_event:accept()            # 标记按键已处理，跳过标点规则
+#          return 1
+#        end
+#        return 0
+#      end
+
+# # ----------符号区----------#
+# # 用分号引导，可一键上屏的标点，可自己改
+# # 格式是：标点+tab+分号字母
+# # 添加到yuming.pop.dict.yaml
+
+# #----------标点符号 快符----------
+#：“	;q
+#？	;w
+#（	;e
+#）	;r
+#@	;t
+#〖	;y
+#〗	;u
+#——	;i
+#·	;o
+#&	;p
+#！	;a
+#……	;s
+#、	;d
+#“	;f
+#”	;g
+#『	;h
+#』	;j
+#%	;k
+#￥	;l
+#：	;
+#；	;
+#~	;z
+#【	;x
+#】	;c
+#《	;v
+#》	;b
+#「	;n
+#」	;m
+
+

@@ -1,0 +1,101 @@
+# Rime schema settings
+# encoding: utf-8
+
+__include: yaoling.schema:/
+
+schema:
+  schema_id: yaoling_pop
+  name: 妖妖灵
+  version: 乙巳冬至
+  author:
+    - 作者 朱宇浩
+    - 修訂者 Evildoer
+    - 官方網站 <https://shurufa.app>
+    - 官方QQ群 735728797
+  description: |
+    妖灵輸入法之延時頂屏版,候選項唯一時不自動上屏,需要下一擊頂出候選項.
+  dependencies:
+    - yuhao_pinyin
+    - yaoling_chaifen
+    - yaoling_chaifen_tw
+
+switches:
+  - options:
+      - original
+      - yuhao_charset_prioritizer_common
+      - yuhao_charset_prioritizer_tonggui
+      - yuhao_charset_prioritizer_harmonic
+    states: [原始排序, 常用字先, 简体字先, 繁体字先]
+    reset: 2
+    # Control+Shift+M
+  - options:
+      - cjk
+      - yuhao_charset_filter_common
+      - yuhao_charset_filter_tonggui
+      - yuhao_charset_filter_harmonic
+    states: [全汉字, 常用字, 简体字, 繁体字]
+    reset: 0
+    # Control+Shift+O
+  - name: yuhao_single_char_only_for_full_code
+    states: [字词同出, 全码出单]
+    reset: 0
+    # Control+Shift+D
+    # Tab
+  - options:
+      - yuhao_chaifen.off
+      - yuhao_chaifen.lv1  # 一重注解（拼音）
+      - yuhao_chaifen.lv2  # 三重注解（拆分 + 编码 + 拼音）
+      - yuhao_chaifen.lv3
+    states: [无注解, 拼音注解, 拆分注解, 完整注解]
+    reset: 1
+    # /
+  - options:
+      - yuhao_popper_hints
+      - yuhao_autocompletion_filter
+    states: [预测提示, 精确匹配]
+    reset: 1
+    # Control+Shift+Y
+  - name: yuhao_hide_space_candidates
+    states: [有空格简, 无空格简]
+    reset: 0
+    # Control+Shift+K
+  - name: yuhao_compatible_chaifen_filter
+    states: [显示兼容, 屏蔽兼容]
+    reset: 1
+    # Control+Shift+L
+  - name: yuhao_chaifen_source
+    states: [陆标拆分, 臺標拆分]
+    reset: 0
+  - name: traditionalization
+    states: [简保持, 简转繁]
+    reset: 0
+    # Control+Shift+F
+  - name: simplification
+    states: [繁保持, 繁轉簡]
+    reset: 0
+    # Control+Shift+J
+  - name: ascii_mode
+    states: [中文, 西文]
+    reset: 0
+  - name: full_shape
+    states: ["半角", "全角"]
+    reset: 0
+  - name: ascii_punct
+    states: [。，, ．，]
+    reset: 0
+
+speller/+:
+  auto_select: false  # 自動選擇唯一候選項(true)或否(false)
+  alphabet: zyxwvutsrqponmlkjihgfedcba/
+  initials: zyxwvutsrqponmlkjihgfedcba/
+  auto_select_pattern: "[qwrtypsdfghjklxcvbnm]{0,3}[aeiou]|[qwrtypsdfghjklxcvbnm]{4}"  
+
+
+translator/+:
+  dictionary: yaoling_pop
+  prism: yaoling_evildoer
+
+key_binder/+:
+  bindings/+:
+    - { when: always, accept: "Control+Shift+N", select: yaoling_fluency } # 切換妖灵語流版
+    - { when: always, accept: "Control+Shift+B", select: yaoling } # 切換妖灵標準版

@@ -1,0 +1,431 @@
+# Weasel settings
+# encoding: utf-8
+
+# 感谢 @[Mirtle](https://github.com/mirtlecn) 整理
+# Rime 定制指南 <https://github.com/rime/home/wiki/CustomizationGuide#定製指南>
+# Weasel 定制文档 <https://github.com/rime/weasel/wiki/Weasel-定製化>
+# Weasel 字体设定 <https://github.com/rime/weasel/wiki/字體設定>
+
+# 部分选项需要将 Weasel 更新至最新开发版才能生效
+config_version: "2024-03-02"
+
+# 已修改版本
+
+# [app_options]
+# 针对特定应用的设置
+app_options:
+  firefox.exe:
+    inline_preedit: true # 行内显示预编辑区：规避 <https://github.com/rime/weasel/issues/946>
+  iexplore.exe:
+    inline_preedit: true # 兼容 IE
+  browser.exe:
+    inline_preedit: true # 兼容 Yandex
+
+# [global settings]
+show_notifications: true                   # 是否显示状态变化的通知：true；false；option_list（方案内的开头 option）
+show_notifications_time: 1200              # 通知显示的时间，单位 ms
+global_ascii: false                        # 切换为 ascii 模式时，是否影响所有窗口：true；false
+# [End of <global settings>]
+
+# [style]
+# 字体；候选项、候选窗口的行为、布局及样式
+style:
+  color_scheme: mint_light_blue             # 默认配色方案
+  color_scheme_dark: mint_dark_blue         # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+
+  # 全局字体
+  # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
+  # 详细设定请参考 <https://github.com/rime/weasel/wiki/字體設定>
+  font_face: "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Microsoft YaHei, SF Pro, Segoe UI Emoji, Noto Color Emoji"
+  label_font_face: "Microsoft YaHei"       # 标签字体
+  comment_font_face: "Microsoft YaHei"     # 注释字体
+  font_point: 12                           # 全局字体字号
+  label_font_point: 12                     # 标签字体字号，不设定 fallback 到 font_point
+  comment_font_point: 14 #10                   # 注释字体字号，不设定 fallback 到 font_point
+
+  inline_preedit: false                     # 行内显示预编辑区：true；false
+  preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+  
+  fullscreen: false                        # 候选窗口全屏显示：true；false
+  vertical_text: false                     # 竖排文本：true；false
+  # text_orientation: horizontal           # 文本排列方向，效果和 `vertical_text` 相同：horizontal；vertical
+  candidate_list_layout: stacked           # stacked | linear  候选项排列方向（小狼毫可能没有这个参数；如果需要修改为水平布局，可以在custom文件内修改horizontal为true）
+  horizontal: false                        # 候选项水平排列（在custom内和candidate_list_layout的linear效果一样）
+  vertical_text_left_to_right: false       # 竖排方向是否从左到右：true；false
+  vertical_text_with_wrap: false           # 文本竖排模式下，自动换行：true；false
+  vertical_auto_reverse: false             # 文本竖排模式下，候选窗口位于光标上方时倒序排列：true；false
+  
+  label_format: "%s"                       # 标签字符：例如 %s. 效果为 1. 2. 3. ....
+  mark_text: "" # "|"                           # 标记字符，显示在选中的候选标签前，需要在配色方案中指定颜色；如该项为空字符串 "" 而配色方案中 hilited_mark_color 非透明色，则显示 Windows 11 输入法风格标记
+  ascii_tip_follow_cursor: false           # 切换 ASCII 模式时，提示跟随鼠标，而非输入光标
+  enhanced_position: true                  # 无法定位候选框时，在窗口左上角显示候选框：true；false
+  display_tray_icon: false                 # 托盘显示独立于语言栏的额外图标：true；false
+  antialias_mode: default                  # 次像素反锯齿设定：default；force_dword；cleartype；grayscale；aliased
+  candidate_abbreviate_length: 30          # 候选项略写，超过此数字则用省略号代替。设置为 0 则不启用此功能
+  mouse_hover_ms: 0                        # ! 已弃用。鼠标悬停选词响应时间（ms），设置为 0 时禁用该功能
+  hover_type: none                         # 鼠标在候选窗口悬停时：none（无动作）；hilite（选中鼠标下的候选）；semi_hilite（高亮鼠标下的候选）
+  paging_on_scroll: true                   # 在候选窗口上滑动滚轮的行为：true（翻页）；false （选中下一个候选）
+  click_to_capture: false                  # 鼠标点击候选项，创建截图：true；false
+
+  layout:
+
+    baseline: 0                            # 字号百分比，与 linespacing 一同设置可解决字体跳动问题，设置为 0 为禁用
+    linespacing: 0                         # 字号百分比，参考 <https://github.com/rime/weasel/pull/1177>
+    align_type: center                     # 标签、候选文字、注解文字之间的相对对齐方式：top ; center ; bottom
+    max_height: 0 # 600                    # 候选框最大高度，horizontal 布局如宽超此尺寸则换行显示候选，设置为 0 不启用此功能
+    max_width: 0                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 不启用此功能
+    min_height: 0                          # 候选框最小高度
+    min_width: 80 # 145                    # 候选框最小宽度
+    border_width: 1 # 0                    # 边框宽度；又名 border
+    margin_x: 12 # 8                       # 主体元素和候选框的左右边距；为负值时，不显示候选框
+    margin_y: 8                            # 主体元素的上下边距；为负值时，不显示候选框
+    spacing: 18 # 10                       # inline_preedit 为否时，编码区域和候选区域的间距
+    candidate_spacing: 15 # 22             # 候选项之间的间距
+    hilite_spacing: 10 # 6                 # 候选项和相应标签的间距
+    hilite_padding: 5 # 8                  # 高亮区域和内部文字的间距，影响高亮区域大小
+    hilite_padding_x: 5 # 8                # 高亮区域和内部文字的左右间距，如无特殊指定则依 hilite_padding 设置
+    hilite_padding_y: 5 # 8                # 高亮区域和内部文字的上下间距，如无特殊指定则依 hilite_padding 设置
+    shadow_radius: 8 # 0                   # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+    shadow_offset_x: "-8" # 4              # 阴影左右偏移距离
+    shadow_offset_y: 8 # 4                 # 阴影上下偏移距离
+    corner_radius: 8                       # 候选窗口圆角半径
+    round_corner: 8                        # 候选背景色块圆角半径，又名 hilited_corner_radius
+    # type: vertical                       # 布局设置，效果和 style 下的设置相同：
+                                           # horizontal（横向）；vertical（竖向） ; vertical_text（竖排文本） ; vertical+fullscreen（全屏） ; horizontal+fullscreen（横向全屏）
+# [End of <style>]
+
+# [preset_color_schemes]
+# 配色设定
+# 在小狼毫用户目录新建 preview 文件夹，将自定义皮肤的截图重命名为 color_scheme_<name>.png 放入此文件夹，可以在「输入法设定」中看到自定义皮肤效果
+
+# 小狼毫配色在线设计：
+# [RIME 西米](https://fxliang.github.io/RimeSeeMe/)
+# [润笔](https://pdog18.github.io/rime-soak/#/theme)
+
+# [小狼毫配色详解](https://github.com/rime/weasel/wiki/定制小狼毫配色)
+
+preset_color_schemes:
+
+
+  # 以下是一个配色方案示例
+  nord:                                      # 在 `style/color_schema` 指定的配色方案值
+    name: "远山／Nord"                       # 方案设置中显示的配色名称
+    author: Mirtle                           # 配色作者名称
+    color_format: rgba                       # 颜色格式：argb（0xaarrggbb）；rgba（0xrrggbbaa）；abgr（0xaabbggrr 默认）
+    # 默认配色
+    text_color: 0x2E3440                     # 文字
+    shadow_color: 0x000000b4                 # 阴影
+    label_color: 0x4C566A                    # 标签
+    comment_text_color: 0xD08770             # 注释
+    border_color: 0xECEFF4                   # 边框
+    back_color: 0xECEFF4                     # 背景
+    # 普通候选项配色
+    candidate_back_color: 0xECEFF4           # 背景
+    # candidate_border_color:                # 边框
+    # candidate_shadow_color:                # 阴影
+    candidate_text_color: 0x2E3440           # 文字
+    # 编码区域配色
+    hilited_text_color: 0x000000             # 文字
+    hilited_back_color: 0xEBCB8B             # 背景
+    # hilited_shadow_color:                  # 阴影
+    # 选中的候选区域配色
+    hilited_mark_color: 0xBF616A             # 标签前的标记
+    hilited_label_color: 0x4C566A            # 标签
+    hilited_comment_text_color: 0xBF616A     # 注释
+    hilited_candidate_text_color: 0x2E3440   # 文字
+    hilited_candidate_border_color: 0x8FBCBB # 边框
+    hilited_candidate_back_color: 0x8FBCBB   # 背景
+    # hilited_candidate_shadow_color:        # 阴影
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    # nextpage_color: 0x000000               # 下一页
+    # prevpage_color: 0x000000               # 上一页
+
+  mint_light_green:
+    name: "碧皓青／Mint Light Green"
+    author: Mintimate <"Mintimate's Blog">
+    translucency: true                      # 磨砂： false | true
+    mutual_exclusive: false                 # 色不叠加： false | true
+    candidate_list_layout: stacked
+    text_orientation: horizontal
+    color_space: srgb
+    back_color: 0xEFEFEF                    # 底色
+    candidate_text_color: 0x323232          # 文字颜色
+    comment_text_color: 0x878787            # 注颜色
+    label_color: 0x323232                   # 序号颜色
+    hilited_candidate_back_color: 0x7BAE4F  # 选中底色
+    hilited_candidate_text_color: 0xFFFFFF  # 选中文字颜色
+    hilited_comment_text_color: 0xDFF0EE    # 选中注颜色
+    hilited_candidate_label_color: 0xEFEFEF # 选中序号颜色
+    hilited_label_color: 0xEFEFEF           # 选中序号颜色
+    text_color: 0x7BAE4F                    # 拼音颜色 （inline_preedit: false）
+    hilited_text_color: 0xed9564            # 选中拼音颜色 （inline_preedit: false）
+
+  amber-11:
+    name: 简洁白 / Simple white11
+    text_color:                       0x777777
+    back_color:                       0xf9f9f9
+    border_color:                     0x009e5a00
+    hilited_text_color:               0x000000
+    hilited_back_color:               0x1ff9f9f9
+    hilited_candidate_text_color:     0x000000
+    hilited_candidate_back_color:     0xf0f0f0
+    candidate_back_color:             0x2ff9f9f9
+    candidate_text_color:             0x3a3a3a
+    hilited_mark_color:               0x9e5a00
+    shadow_color:                     0x20000000
+    hilited_candidate_shadow_color:   0x20000000
+    label_color: 0x1a1a1a #非高亮候选序数值颜色-by98WB
+    hilited_label_color: 0x1a1a1a #高亮候选的序数值颜色-by98WB
+    comment_text_color: 0x666666 #非高亮opencc注解颜色-by98WB
+    hilited_comment_text_color: 0x1a1a1a #高亮opencc注解颜色-by98WB
+
+  amber-9:
+    name: 简洁灰 / Simple gray9
+    back_color:                       0xffffff
+    text_color:                       0x000000
+    border_color:                     0x666666
+    candidate_text_color:             0x000000
+    hilited_text_color:               0xffffff
+    hilited_back_color:               0x444444
+    hilited_candidate_back_color:     0x444444
+    hilited_candidate_shadow_color:   0x20000000
+    hilited_candidate_text_color:     0xffffff
+    shadow_color:                     0x20000000
+    label_color: 0xa9a9a9 #非高亮候选序数值颜色-by98WB
+    hilited_label_color: 0xeeeeee #高亮候选的序数值颜色-by98WB
+    comment_text_color: 0x666666 #非高亮opencc注解颜色-by98WB
+    hilited_comment_text_color: 0xeeeeee #高亮opencc注解颜色-by98WB
+
+  ink:
+    name: 墨池／Ink
+    author: 佛振 <chen.sst@gmail.com>
+    text_color: 0x000000
+    back_color: 0xffffff
+    border_color: 0x000000
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xdddddd
+    hilited_candidate_text_color: 0xffffff
+    hilited_candidate_back_color: 0x000000
+
+  amber-8:
+    name: 墨池(透明) ／ trans_Ink
+    author: "佛振 <chen.sst@gmail.com>"
+    back_color: 0x00ffffff
+    border_color: 0x00000000
+    candidate_back_color: 0xE4E4E4
+    candidate_shadow_color: 0xab000000
+    hilited_back_color: 0xE4E4E4
+    hilited_candidate_back_color: 0x000000
+    hilited_candidate_shadow_color: 0xab000000
+    hilited_candidate_text_color: 0xE4E4E4
+    hilited_shadow_color: 0xab000000
+    hilited_text_color: 0x000000
+    shadow_color: 0x00000000
+    text_color: 0x000000
+    label_color: 0x000000 #非高亮候选序数值颜色-by98WB
+    hilited_label_color: 0xE4E4E4 #高亮候选的序数值颜色-by98WB
+    comment_text_color: 0x000000 #非高亮opencc注解颜色-by98WB
+    hilited_comment_text_color: 0xE4E4E4 #高亮opencc注解颜色-by98WB
+
+  amber-5:
+    name: 琥珀-荧光叶绿／Amber-green-leaf
+    author: 五笔小筑 <wubixiaozhu@126.com>
+    text_color: 0xffffff #默认文字颜色
+    back_color: 0x00FFFFFF #候选窗背景色
+    border_color: 0x00444444 #候选窗边框颜色
+    candidate_back_color: 0xE6718D30 #非高亮候选背景颜色    
+    candidate_shadow_color: 0xF599E99E #非高亮候选背景块阴影颜色
+    candidate_text_color: 0xffffff #非高亮候选文字颜色
+    hilited_candidate_border_color: 0xE6718D30 #高亮候选背景块描边色
+    hilited_candidate_shadow_color: 0xF599E99E #高亮候选背景块阴影颜色
+    hilited_mark_color: 0xDE33C1 #标记高亮的标签小竖块的颜色
+    hilited_shadow_color: 0xab2EFF58 #编码背景块阴影颜色
+    hilited_text_color: 0x82e6ca #编码文字颜色
+    hilited_back_color: 0x27BA53 #编码背景颜色
+    hilited_candidate_text_color: 0xffffff #高亮候选文字颜色
+    hilited_candidate_back_color: 0xE6718D30 #高亮候选背景颜色
+    shadow_color: 0xEB60DCDC #候选窗阴影色，默认全透明（无阴影）
+    label_color: 0xffffff #非高亮候选序数值颜色-by98WB
+    hilited_label_color: 0xffffff #高亮候选的序数值颜色-by98WB
+    comment_text_color: 0xffffff #非高亮opencc注解颜色-by98WB
+    hilited_comment_text_color: 0xffffff #高亮opencc注解颜色-by98WB
+
+  amber-4:
+    name: 琥珀-荧光深红／Amber-dark-red
+    author: 五笔小筑 <wubixiaozhu@126.com>
+    text_color: 0xffffff #默认文字颜色
+    back_color: 0x00FFFFFF #候选窗背景色
+    border_color: 0x00444444 #候选窗边框颜色
+    candidate_back_color: 0xF348C1CA #非高亮候选背景颜色    
+    candidate_shadow_color: 0xF37F1FDE #非高亮候选背景块阴影颜色
+    candidate_text_color: 0xffffff #非高亮候选文字颜色
+    hilited_candidate_border_color: 0xF348C1CA #高亮候选背景块描边色
+    hilited_candidate_shadow_color: 0xF37F1FDE #高亮候选背景块阴影颜色
+    hilited_mark_color: 0xDE33C1 #标记高亮的标签小竖块的颜色
+    hilited_shadow_color: 0xab2EFF58 #编码背景块阴影颜色
+    hilited_text_color: 0x82e6ca #编码文字颜色
+    hilited_back_color: 0x27BA53 #编码背景颜色
+    hilited_candidate_text_color: 0xffffff #高亮候选文字颜色
+    hilited_candidate_back_color: 0xF348C1CA #高亮候选背景颜色
+    shadow_color: 0xEB60DCDC #候选窗阴影色，默认全透明（无阴影）
+    label_color: 0xffffff #非高亮候选序数值颜色-by98WB
+    hilited_label_color: 0xffffff #高亮候选的序数值颜色-by98WB
+    comment_text_color: 0xffffff #非高亮opencc注解颜色-by98WB
+    hilited_comment_text_color: 0xffffff #高亮opencc注解颜色-by98WB
+
+  amber-3:
+    name: 琥珀-荧光水绿／Amber-light-green
+    author: 五笔小筑 <wubixiaozhu@126.com>
+    text_color: 0xffffff #默认文字颜色
+    back_color: 0x00FFFFFF #候选窗背景色
+    border_color: 0x00444444 #候选窗边框颜色
+    candidate_back_color: 0xC552D457 #非高亮候选背景颜色    
+    candidate_shadow_color: 0xF0A1F0ED #非高亮候选背景块阴影颜色
+    candidate_text_color: 0xffffff #非高亮候选文字颜色
+    hilited_candidate_border_color: 0xC552D457 #高亮候选背景块描边色
+    hilited_candidate_shadow_color: 0xF0A1F0ED #高亮候选背景块阴影颜色
+    hilited_mark_color: 0xDE33C1 #标记高亮的标签小竖块的颜色
+    hilited_shadow_color: 0xab2EFF58 #编码背景块阴影颜色
+    hilited_text_color: 0x82e6ca #编码文字颜色
+    hilited_back_color: 0x27BA53 #编码背景颜色
+    hilited_candidate_text_color: 0xffffff #高亮候选文字颜色
+    hilited_candidate_back_color: 0xC552D457 #高亮候选背景颜色
+    shadow_color: 0xB329E63C #候选窗阴影色，默认全透明（无阴影）
+    label_color: 0xffffff #非高亮候选序数值颜色-by98WB
+    hilited_label_color: 0xffffff #高亮候选的序数值颜色-by98WB
+    comment_text_color: 0xffffff #非高亮opencc注解颜色-by98WB
+    hilited_comment_text_color: 0xffffff #高亮opencc注解颜色-by98WB
+
+  amber-2:
+    name: 琥珀-新绿／Amber-green
+    author: 五笔小筑 <wubixiaozhu@126.com>
+    text_color: 0xffffff #默认文字颜色
+    back_color: 0x72D4BD #候选窗背景色
+    border_color: 0x00444444 #候选窗边框颜色
+    candidate_back_color: 0x72D4BD #非高亮候选背景颜色    
+    candidate_shadow_color: 0x00000000 #非高亮候选背景块阴影颜色
+    candidate_text_color: 0xffffff #非高亮候选文字颜色
+    hilited_candidate_border_color: 0xc227BA53 #高亮候选背景块描边色
+    hilited_candidate_shadow_color: 0xabD41789 #高亮候选背景块阴影颜色
+    hilited_mark_color: 0xDE33C1 #标记高亮的标签小竖块的颜色
+    hilited_shadow_color: 0xab2EFF58 #编码背景块阴影颜色
+    hilited_text_color: 0x82e6ca #编码文字颜色
+    hilited_back_color: 0x27BA53 #编码背景颜色
+    hilited_candidate_text_color: 0xffffff #高亮候选文字颜色
+    hilited_candidate_back_color: 0xc227BA53 #高亮候选背景颜色
+    shadow_color: 0xab2EFF58 #候选窗阴影色，默认全透明（无阴影）
+    label_color: 0xffffff #非高亮候选序数值颜色-by98WB
+    hilited_label_color: 0xffffff #高亮候选的序数值颜色-by98WB
+    comment_text_color: 0xffffff #非高亮opencc注解颜色-by98WB
+    hilited_comment_text_color: 0xffffff #高亮opencc注解颜色-by98WB
+
+  98wb-pink:
+    name: 一品红／98wb-pink
+    author: 五笔小筑 <wubixiaozhu@126.com>
+    text_color: 0xffffff #默认文字颜色
+    back_color: 0xabE8CB3C #候选窗背景色
+    border_color: 0xE8CB3C #候选窗边框颜色
+    candidate_back_color: 0x00000000 #非高亮候选背景颜色    
+    comment_text_color: 0xffffff #opencc注解颜色
+    label_color: 0xffffff #非高亮候选序数值颜色
+    candidate_shadow_color: 0x00000000 #非高亮候选背景块阴影颜色
+    candidate_text_color: 0xffffff #非高亮候选文字颜色
+    hilited_candidate_border_color: 0xE82EE8 #高亮候选背景块描边色
+    hilited_candidate_shadow_color: 0xab13E8E8 #高亮候选背景块阴影颜色
+    hilited_label_color: 0xffffff #高亮候选的序数值颜色
+    hilited_mark_color: 0xDE33C1 #标记高亮的标签小竖块的颜色
+    hilited_shadow_color: 0xab187BDD #编码背景块阴影颜色
+    hilited_text_color: 0x82e6ca #编码文字颜色
+    hilited_back_color: 0x42BA2CDD #编码背景颜色
+    hilited_candidate_text_color: 0xffffff #高亮候选文字颜色
+    hilited_candidate_back_color: 0xa1E82EE8 #高亮候选背景颜色
+    shadow_color: 0xab13E868 #候选窗阴影色，默认全透明（无阴影）
+    hilited_comment_text_color: 0xffffff #高亮opencc注解颜色-by98WB
+
+  winbook:
+    name: 古书／oldbook
+    border_color:                     0x76a3c3 #0x76a3c3
+    back_color:                       0xdcf5f5
+    hilited_back_color:               0x00202020
+    #hilited_shadow_color:            0x50202020
+    hilited_candidate_back_color:     0x01d07c3a
+    hilited_candidate_border_color:   0xe05560d2  #0xe05560d2
+    hilited_text_color:               0x202020
+    hilited_label_color:              0x202020
+    hilited_candidate_text_color:     0x202020
+    hilited_comment_text_color:       0x202020
+    hilited_mark_color:               0x5560c2
+    text_color:                       0x404040
+    label_color:                      0x404040
+    candidate_text_color:             0x404040
+    candidate_back_color:             0x01d07c3a
+    comment_text_color:               0x404040
+    candidate_border_color:           0x205560c2 #0x20d07c3a
+    shadow_color:                     0x60000000
+
+  songhe:
+    name: 松鹤／songhe
+    author: 空山明月 <sqqlove123@163.com>
+    text_color: 0xB2CECC 
+    back_color: 0x4E7160
+    border_color: 0x38667D
+    candidate_back_color: 0x4E7160 
+    hilited_candidate_border_color: 0x434C50
+    comment_text_color: 0xB2CECC
+    hilited_comment_text_color: 0x263030
+    label_color: 0xB2CECC
+    hilited_label_color: 0x072FA9
+    hilited_mark_color: 0xffffff
+    hilited_text_color: 0xB2CECC
+    hilited_back_color: 0x26332C
+    hilited_candidate_text_color: 0x263030
+    hilited_candidate_back_color: 0xC0D9D7
+    shadow_color: 0x6b68635F
+    hilited_shadow_color: 0x6b000000  
+    # hilited_candidate_border_color: 0x426D96
+    hilited_candidate_shadow_color: 0x6b000000
+
+  xuemei:
+    # 砌下落梅如雪乱，拂了一身还满。
+    name: 雪梅／xuemei
+    author: 空山明月 <sqqlove123@163.com>
+    text_color: 0x747676 
+    back_color: 0xEFEFEF
+    border_color: 0x1F1A12
+    candidate_back_color: 0xEFEFEF 
+    comment_text_color: 0x747676
+    hilited_comment_text_color: 0x2A251C
+    label_color: 0x747676
+    hilited_label_color: 0x2A251C
+    hilited_mark_color: 0xEFEFEF
+    hilited_text_color: 0xEFEFEF
+    hilited_back_color: 0x2A251C
+    hilited_candidate_text_color: 0x2A251C
+    hilited_candidate_back_color: 0x030DC6
+    shadow_color: 0xab000000
+    hilited_shadow_color: 0xab000000  
+    # hilited_candidate_border_color: 0x426D96
+    hilited_candidate_shadow_color: 0xab000000
+
+  bamboo:
+    # 霜干寒如玉，风枝响似琴。
+    name: 咏竹／bamboo
+    author: 空山明月 <sqqlove123@163.com>
+    text_color: 0x578664
+    back_color: 0xCFECF1
+    border_color: 0xBBD9C1
+    candidate_back_color: 0xCFECF1 
+    comment_text_color: 0x578664
+    hilited_comment_text_color: 0x253827
+    label_color: 0x578664
+    hilited_label_color: 0x253827
+    hilited_mark_color: 0xffffff
+    hilited_text_color: 0x253827
+    hilited_back_color: 0x6F9A80
+    hilited_candidate_text_color: 0x253827
+    hilited_candidate_back_color: 0x6F9A80
+    shadow_color: 0x6b68635F
+    hilited_shadow_color: 0x6b000000  
+    # hilited_candidate_border_color: 0xEBE7E7
+    hilited_candidate_shadow_color: 0x6b000000
+# [End of <preset_color_schemes>]
