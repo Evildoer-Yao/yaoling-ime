@@ -1,0 +1,368 @@
+{丄丶}	a	㊟同丄歸併
+{二撇}	a	
+{兴上}	a	
+{周框}	a	㊟同勹歸併
+⺍	a	Xiǎo -> a 🈤不取聲母
+リ	a	㊟同丷歸併 ㊕只作首根
+ㄩ	a	Kǎn -> a 🈤不取聲母
+䒑	a	Cǎo -> a 🈤不取聲母
+丄	a	Ŝàŋ -> a 🈤不取聲母 🈑上本字
+丆	a	Hǎn -> a 🈤不取聲母
+上	a	Ŝàŋ -> a 🈤不取聲母
+下	a	Xià -> a 🈤不取聲母
+丬	a	Qiáŋ -> a 🈤不取聲母
+丷	a	Bā -> a 🈤不取聲母
+僉	a	Qiān -> a 🈤不取聲母
+八	a	Bā -> a 🈤不取聲母
+冎	a	Guǎ ㊟同咼歸併
+刀	a	Dāo -> a 🈤不取聲母
+勹	a	Bāo -> a 🈤不取聲母
+厂	a	Ĉǎŋ -> a 🈤不取聲母 🈕Hǎn Yán ān
+咼	a	Guǎ -> a 🈤不取聲母
+宀	a	Miǎn -> a 🈤不取聲母 ㊟俗稱寶蓋頭
+巴	a	Bā -> a 🈤不取聲母
+彡	a	Ŝān -> a 🈤不取聲母
+早	a	Zǎo -> a 🈤不取聲母
+爪	a	Ẑuǎ -> a 🈤不取聲母
+爿	a	Pán -> a 🈤不取聲母 🈕Qiáng
+犬	a	Quǎn -> a 🈤不取聲母
+王	a	Wáŋ -> a 🈤不取聲母
+电	a	Diàn -> a 🈤不取聲母
+言	a	Yán -> a 🈤不取聲母
+讠	a	Yán -> a 🈤不取聲母
+灬	ba	Biāo -> Ba 🈕Hǔo
+白	ba	Bái -> Ba
+髟	ba	Biāo -> Ba
+貝	be	Bèi -> Be
+贝	be	Bèi -> Be
+不	bu	Bù
+屮	ca	Cǎo -> Ca
+巛	ca	㊟同川歸併
+巜	ca	
+川	ca	Ĉuān -> Ca
+長	ca	Ĉáŋ -> Ca
+镸	ca	Ĉáŋ -> Ca
+长	ca	Ĉáŋ -> Ca
+{專上}	ce	
+冊	ce	Cè
+叀	ce	
+車	ce	Ĉē
+车	ce	Ĉē
+辰	ce	Ĉén -> Ce
+齒	ci	Ĉǐ
+丑	co	Ĉǒu -> Co
+亍	cu	Ĉù
+寸	cu	Cùn -> Cu
+刂	da	Dāo -> Da ㊟俗稱立刀旁
+大	da	Dà
+{阜上}	di	Duī -> Di
+丁	di	Dīŋ -> d
+丅	di	㊟同丁歸併 🈑下本字
+𡗗	di	Dí
+鬥	do	Dòu -> Do
+{炙上}	e	
+{祭上}	e	
+{荒下}	e	㊟同儿歸併
+丰	e	Fēŋ -> e 🈤不取聲母
+丿	e	Piě -> Pe 🈤基本筆畫不取聲母 ㊟俗稱點 🈕Yí
+也	e	Yě -> e 🈤不取聲母
+人	e	rén -> e 🈤不取聲母
+亻	e	Rén -> e 🈤不取聲母 ㊟俗稱單人旁
+儿	e	ér -> e
+月	e	Yuè -> e 🈤不取聲母
+正	e	Ẑèŋ -> e 🈤不取聲母
+生	e	Ŝēŋ -> e 🈤不取聲母
+臣	e	Ĉén -> e 🈤不取聲母
+龶	e	Ŝēŋ ->  🈤不取聲母
+匚	fa	Fāŋ -> Fa
+方	fa	Fāŋ -> Fa
+非	fe	Fēi -> Fe
+風	fe	Fēŋ -> Fe
+飛	fe	Fēi -> Fe
+缶	fo	Fǒu -> Fo
+夫	fu	Fū
+{亮上}	ga	㊟同高歸併
+丱	ga	Guān -> Ga
+干	ga	Gān -> Ga
+广	ga	Guǎŋ -> Ga 🈕Yǎn ān
+瓜	ga	Guā -> Ga
+高	ga	Gāo -> Ga
+{即左}	ge	㊟同艮歸併
+戈	ge	Gē
+艮	ge	Gěn -> Ge
+革	ge	Gé
+弓	go	Gōŋ -> Go
+古	gu	Gǔ
+骨	gu	Gǔ
+亥	ha	Hài -> Ha
+{僉上}	he	
+{龠上}	he	
+合	he	Hé
+禾	he	Hé
+黑	he	Hēi -> He
+{虍上}	hu	㊟同虎歸併
+户	hu	Hù
+戸	hu	
+虍	hu	㊟同虎歸併
+虎	hu	Hǔ
+{冓上}	i	㊟同卌歸併
+{奐上}	i	㊟同冖歸併 ㊕不做末根
+{姬右}	i	Yí -> i 🈤不取聲母 ㊟熙左上
+{弬右}	i	Yí -> i 🈤不取聲母
+{纟上}	i	
+{華中}	i	㊟同卌歸併
+{鬯中}	i	
+{鬼左}	i	㊟同鬼歸併
+ᅲ	i	㊟同丌歸併
+⺁	i	Yì -> i 🈤不取聲母
+⺈	i	㊟同冖歸併
+〢	i	
+〣	i	
+一	i	Yī -> i 🈤基本筆畫不取聲母 ㊟俗稱横
+七	i	Qī -> i 🈤不取聲母
+丌	i	Jì -> i 🈤不取聲母 🈕Qí
+丨	i	Yī -> i 🈤基本筆畫不取聲母 ㊟俗稱豎 🈕Ŝù Gǔn Tuì
+乂	i	Yì -> i 🈤不取聲母
+之	i	Ẑī -> i 🈤不取聲母
+乙	i	Yǐ -> i 🈤基本筆畫不取聲母 ㊟一切折筆皆同碼
+乚	i	Yí -> i 🈤基本筆畫不取聲母 ㊟一切折筆皆同碼
+习	i	Xí -> i 🈤不取聲母
+冖	i	Mì -> i 🈤不取聲母 ㊟俗稱秃寶蓋
+匕	i	i 🈤不取聲母
+十	i	Ŝi -> i 🈤不取聲母
+卄	i	㊟同卌歸併 🈕Cǎo
+卅	i	㊟同卌歸併 🈕Sà
+卌	i	Xì -> i 🈤不取聲母
+厶	i	Sī -> i 🈤不取聲母 🈑私本字 🈕Mǒu
+士	i	Ŝì -> i 🈤不取聲母
+廴	i	Yín -> i 🈤不取聲母
+廾	i	㊟同卌歸併 🈕Gǒng
+彳	i	Ĉì -> i 🈤不取聲母 ㊟俗稱雙人旁
+忄	i	Xīn -> i 🈤不取聲母 ㊟俗稱豎心旁
+水	i	Ŝuǐ -> i 🈤不取聲母
+氵	i	Ŝuǐ -> i 🈤不取聲母 ㊟俗稱三點水
+糸	i	Sī -> i 🈤不取聲母 🈕Mì
+纟	i	Sī -> i 🈤不取聲母 ㊟俗稱絞絲旁
+艹	i	㊟同卌歸併 🈕Cǎo
+西	i	Xī -> i 🈤不取聲母
+金	i	Jīn -> i 🈤不取聲母
+钅	i	Jīn -> i 🈤不取聲母 ㊟俗稱金字旁
+隶	i	Lì -> i 🈤不取聲母 🈑逮本字 🈕Dài Yì Dì
+隹	i	Ẑuī -> i 🈤不取聲母 🈕Cuī Wéi
+鬼	i	Guǐ -> i 🈤不取聲母
+龷	i	㊟同卌歸併
+甲	ja	Jiā -> Ja
+見	ja	Jiàn -> Ja
+见	ja	Jiàn -> j
+{飞右}	je	㊟同二歸併
+⺀	je	㊟同二歸併
+ㄗ	je	
+㔾	je	Jié -> Je
+二	je	èr -> Je 🈤零聲母小碼取J
+冫	je	èr -> Je 🈑同二 🈑冰本字 🈕Bīng
+卩	je	Jié -> Je
+孑	je	Jié -> je ㊟多根字中都拆作子
+而	je	ér -> Je 🈤零聲母小碼取J
+耳	je	ěr -> Je 🈤零聲母小碼取J
+{反彐}	ji	
+几	ji	Jǐ
+己	ji	Jǐ
+巾	ji	Jīn -> Ji
+彐	ji	Jì
+彑	ji	Jì
+斤	ji	Jīn -> Ji
+肀	ji	㊟同彐歸併
+{冂丶}	jo	
+{雋下}	jo	
+冂	jo	Jiǒŋ -> Jo
+九	ju	Jiǔ -> Ju
+{奉下}	ka	Kuà -> Ka
+㐄	ka	
+丂	ka	Kào -> Ka
+千	ka	Qiān -> Ka 🈤Q作K
+欠	ka	Qiān -> Ka 🈤Q作K
+犭	ka	Quǎn -> Ka 🈤Q作K ㊟俗稱反犬旁
+且	ke	Qiě -> Ke 🈤Q作K
+其	ki	Qí 🈤Q作K 🈕Jī Jì
+气	ki	Qì -> Ki 🈤Q作K
+曲	ku	Qǔ -> Ku 🈤Q作K
+了	la	Liǎo -> La 🈕le
+來	la	Lái -> La
+耂	la	Lǎo -> La
+力	li	Lì
+立	li	Lì
+里	li	Lǐ
+{贏框}	lo	Luó -> Lo
+{鹿上}	lu	㊟同鹿歸併 ㊕不做末根
+鹵	lu	Lǔ
+鹿	lu	Lù
+{馬上}	ma	
+卯	ma	Mǎo -> Ma
+毛	ma	Máo -> Ma
+面	ma	Miàn -> Ma
+馬	ma	Mǎ
+马	ma	Mǎ
+麻	ma	Má
+乜	me	Miē -> Me
+門	me	Mén -> Me
+门	me	Mén -> Me
+皿	mi	Mǐn -> Mi
+米	mi	Mǐ
+末	mo	Mò
+母	mu	Mǔ
+目	mu	Mù
+{鳥上}	na	
+{鸟上}	na	
+乃	na	Nǎi -> Na
+鳥	na	Niǎo -> Na
+鸟	na	Niǎo -> Na
+疒	ne	Nè ㊟俗稱病字頭
+牛	nu	Niú -> Nu
+{⺮右}	o	
+{乍下}	o	🈤無讀音取o
+{乐上}	o	
+{乞上}	o	🈤無讀音取o
+{于下}	o	🈤無讀音取o
+{互中}	o	🈤無讀音取o
+{亜下}	o	🈤無讀音取o
+{亞下}	o	🈤無讀音取o
+{亞中}	o	🈤無讀音取o
+{京上}	o	🈤無讀音取o
+{介下}	o	🈤無讀音取o
+{具上}	o	🈤無讀音取o
+{南心}	o	🈤無讀音取o
+{卬左}	o	
+{卯左}	o	🈤無讀音取o
+{向框}	o	🈤無讀音取o
+{囟框}	o	🈤無讀音取o
+{微框}	o	🈤無讀音取o ㊕不做末根
+{曹上}	o	🈤無讀音取o ㊕不做末根
+{母框}	o	🈤無讀音取o
+{爲下}	o	🈤無讀音取o
+{畏下}	o	🈤無讀音取o
+{穀框}	o	🈤無讀音取o ㊕不做末根
+{衣下}	o	🈤無讀音取o
+{襄上}	o	🈤無讀音取o ㊕不做末根
+{黽中}	o	🈤無讀音取o
+{鼠下}	o	🈤無讀音取o
+{齊右}	o	
+{龍右}	o	🈤無讀音取o
+⺧	o	🈤無讀音取o
+⻍	o	
+〇	o	㊟同口歸併
+コ	o	🈤無讀音取o
+ス	o	🈤無讀音取o
+マ	o	
+ユ	o	
+亠	o	Tóu -> o 🈤不取聲母 ㊟俗稱京字頭
+又	o	Yòu -> o 🈤不取聲母
+口	o	Kǒu -> o 🈤不取聲母
+尢	o	Yóu -> o 🈤不取聲母 🈑尤本字 🈕Wāŋ
+工	o	Gōŋ -> o 🈤不取聲母
+扌	o	Ŝǒu -> o 🈤不取聲母 ㊟俗稱提手旁
+火	o	Huǒ -> o 🈤不取聲母
+用	o	Yòŋ -> o 🈤不取聲母
+癶	o	Bō -> o 🈤不取聲母
+虫	o	Ĉóŋ -> o 🈤不取聲母 🈕Huǐ
+辶	o	Ĉuò -> o 🈤不取聲母 ㊟俗稱走之底
+片	pa	Piàn -> Pa
+皮	pi	Pí
+⺊	pu	㊟同卜歸併
+卜	pu	Pū 🈕Bǔ Bo
+壬	re	Rén -> Re
+{曾中}	ri	㊟同日歸併
+{横日}	ri	㊟同日歸併
+日	ri	Rì
+入	ru	Rù
+三	sa	Sān -> Sa
+尚	sa	Ŝàŋ -> Sa
+山	sa	Ŝān -> Sa
+龸	sa	㊟同尚歸併
+申	se	Ŝēn -> Se
+舌	se	Ŝé
+身	se	Ŝēn -> Se
+{眉上}	si	㊟同尸歸併
+{豕下}	si	㊟同豕歸併 🈕Gēng
+世	si	Ŝì -> Si
+尸	si	Ŝī -> Si
+巳	si	Sì
+矢	si	Ŝǐ -> Si
+石	si	Ŝí
+示	si	Ŝì -> Si
+豕	si	Ŝǐ
+食	si	Ŝí
+饣	si	Ŝi -> Si
+手	so	Ŝǒu -> So
+龵	so	
+田	ta	Tián -> Ta
+{卑上}	u	㊟同甶歸併
+{发左}	u	
+⺽	u	Jǔ -> u 🈤不取聲母
+丩	u	Jiū -> u 🈤不取聲母
+丶	u	Ẑǔ -> u 🈤基本筆畫不取聲母 ㊟俗稱點
+乀	u	Fú -> u 🈤基本筆畫不取聲母 ㊟俗稱捺
+予	u	Yǔ -> u 🈤不取聲母
+土	u	Tǔ -> u 🈤不取聲母
+女	u	Nǚ -> u 🈤不取聲母
+戶	u	Hù -> u 🈤不取聲母
+木	u	Mù -> u 🈤不取聲母
+朩	u	
+殳	u	Ŝǔ -> u 🈤不取聲母
+甫	u	Fǔ -> u 🈤不取聲母
+甶	u	Fǔ -> u 🈤不取聲母
+竹	u	Ẑú -> u 🈤不取聲母
+臼	u	Jìù -> u 🈤不取聲母
+阝	u	Fǔ -> f 🈤不取聲母 ㊟俗稱掛耳旁 🈑在左同阜在右同邑
+夊	vi	Ẑì -> Vi 🈤Z和Ẑ作V 🈕Pū
+子	vi	Zǐ -> Vi 🈤Z和Ẑ作V
+止	vi	Ẑǐ -> Vi 🈤Z和Ẑ作V
+自	vi	Zì -> Vi 🈤Z和Ẑ作V
+至	vi	Ẑì -> Vi 🈤Z和Ẑ作V
+豸	vi	Ẑì -> Vi 🈤Z和Ẑ作V
+龰	vi	㊟同止歸併
+ナ	vo	Zuǒ -> Zo 🈤Z和Ẑ作V 🈑左本字
+舟	vo	Ẑōu -> Vo 🈤Z和Ẑ作V
+走	vo	Zǒu -> Zo 🈤Z和Ẑ作V
+壴	vu	Ẑú -> Vu 🈤Z和Ẑ作V
+足	vu	Zú -> Vu 🈤Z和Ẑ作V
+亡	wa	Wáŋ -> Wa
+瓦	wa	Wǎ
+罒	wa	Wǎŋ -> Wa
+囗	we	Wéi 🈑圍本字 ㊟不是口
+文	we	Wén -> We
+未	we	Wèi -> We
+{五下}	wu	Wǔ
+{烏上}	wu	
+乌	wu	Wū
+兀	wu	Wù
+戊	wu	Wù
+烏	wu	Wū
+{步下}	xa	
+⺌	xa	Xiǎo -> Xa 🈑同小
+向	xa	Xiàŋ -> Xa
+小	xa	Xiǎo -> Xa
+穴	xe	Xuè -> Xe
+夕	xi	Xī
+心	xi	Xīn -> Xi
+辛	xi	Xīn -> Xi
+⺶	ya	
+⺷	ya	
+夭	ya	yāo -> Ya
+幺	ya	Yāo -> Ya 🈕Mì
+牙	ya	Yá
+羊	ya	Yáŋ -> Ya
+业	ye	Yè
+曰	ye	Yuē -> Ye ㊟多根字中除汩抇曶都拆作日
+頁	ye	Yè
+页	ye	Yè
+亦	yi	Yì
+已	yi	Yǐ
+弋	yi	Yì -> yi
+衤	yi	Yī ㊟俗稱衣字旁
+尤	yo	Yóu -> Yo
+由	yo	Yóu = Yo
+酉	yo	Yǒu -> Yo
+禺	yu	yǔ
+雨	yu	Yǔ
+魚	yu	Yú
+鱼	yu	Yú
