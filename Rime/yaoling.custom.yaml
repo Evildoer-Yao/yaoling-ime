@@ -69,8 +69,8 @@ patch:
   switches/@11/reset: 0
   switches/@12/states: [。，, ．，]
   switches/@12/reset: 0
-  reverse_lookup/tips: 〔双拼输入〕  # 反向查询提示
-  reverse_lookup/closing_tips: 〔双拼输入关闭〕
+  reverse_lookup/tips: 〔拼音输入〕  # 反向查询提示
+  reverse_lookup/closing_tips: 〔拼音输入关闭〕
   schema_name/chaifen_code_all_roots: false   # 注解
   
   
@@ -107,40 +107,4 @@ patch:
 #        end
 #        return 0
 #      end
-
-# # ----------符号区----------#
-# # 用分号引导，可一键上屏的标点，可自己改
-# # 格式是：标点+tab+分号字母
-# # 添加到yuming.pop.dict.yaml
-
-# #----------标点符号 快符----------
-#：“	;q
-#？	;w
-#（	;e
-#）	;r
-#@	;t
-#〖	;y
-#〗	;u
-#——	;i
-#·	;o
-#&	;p
-#！	;a
-#……	;s
-#、	;d
-#“	;f
-#”	;g
-#『	;h
-#』	;j
-#%	;k
-#￥	;l
-#：	;
-#；	;
-#~	;z
-#【	;x
-#】	;c
-#《	;v
-#》	;b
-#「	;n
-#」	;m
-
 

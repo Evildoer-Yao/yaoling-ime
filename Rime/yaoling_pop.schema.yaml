@@ -6,14 +6,14 @@ __include: yaoling.schema:/
 schema:
   schema_id: yaoling_pop
   name: 妖妖灵
-  version: 乙巳冬至
+  version: 丙午夏至
   author:
-    - 作者 朱宇浩
-    - 修訂者 Evildoer
-    - 官方網站 <https://shurufa.app>
+    - 灵明作者 朱宇浩
+    - 妖灵作者 Evildoer
+    - 官方網站 <https://shurufa.app/ime/yaoling.html>
     - 官方QQ群 735728797
   description: |
-    妖灵輸入法之延時頂屏版,候選項唯一時不自動上屏,需要下一擊頂出候選項.
+    妖灵输入法之延时顶屏版,候选项唯一时不自动上屏,需要下一击顶出候选项.
   dependencies:
     - yuhao_pinyin
     - yaoling_chaifen
@@ -97,5 +97,4 @@ translator/+:
 
 key_binder/+:
   bindings/+:
-    - { when: always, accept: "Control+Shift+N", select: yaoling_fluency } # 切換妖灵語流版
-    - { when: always, accept: "Control+Shift+B", select: yaoling } # 切換妖灵標準版
+    - { when: always, accept: "Control+Shift+N", select: yaoling } # 切換妖灵標準版

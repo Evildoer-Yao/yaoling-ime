@@ -1,12 +1,267 @@
 # encoding: utf-8
 ---
 name: "yaoling.roots"
-version: "20260310"
+version: "20260621"
 sort: original
 columns:
   - text
   - code
 ...
 
-妖灵字根編碼提示	/yl
-輸入對應大碼字母	/yl
+妖灵字根编码提示	/yl
+输入对应大码字母	/yl
+丷車入食牙匕豸户戸卩虫	/ylb
+厂丆辰世隹丂文心卜鹵馬	/ylc
+早石乂气未末夕止齒禾九丶乀革	/yld
+爪瓜尚正一小⺌至见用母女	/ylf
+㔾刀壬巳丰已水氺亥己癶贝	/ylg
+丬寸舌丿彡也乜鱼乙亅乚冖丁丅下弓	/ylh
+王长日儿鬼兀丌牛门甶了子孑予高非酉	/ylj
+曰车豕羊且戊片爿二⺀疒目不立辛戈夫	/ylk
+上丄示月七弋亡夊攵自马白广飛	/yll
+八三人页乃門鬥力艮方	/ylm
+勹冊尸雨火灬米竹臼鹿古	/yln
+又由申电艹廾卅卌瓦見干	/ylp
+臣幺厶金向黑巾皿罒甫	/ylq
+頁丨〢〣其虎虍而面土士缶	/ylr
+丑手亦习舟皮彑耳口〇卯骨咼	/yls
+糸欠囗足合僉彐肀隶匚	/ylt
+巴長镸髟身夭之走戶田斤辶⻍木朩來	/ylv
+犬业曲大几殳風毛	/ylw
+矢禺魚十彳亍千穴宀冂甲工鳥烏里	/ylx
+凵丩屮丱言川巛巜山生尤尢廴西亠鸟乌麻貝耂	/yly
++ a = 丷	/ylb
++ cu = 車	/ylb
++ di = 入	/ylb
++ do = 食	/ylb
++ gu = 牙	/ylb
++ i = 匕	/ylb
++ ke = 豸	/ylb
++ la = 户戸	/ylb
++ ne = 卩	/ylb
++ o = 虫	/ylb
++ a = 厂丆	/ylc
++ cu = 辰	/ylc
++ do = 世	/ylc
++ i = 隹	/ylc
++ je = 丂	/ylc
++ jo = 文	/ylc
++ ka = 心	/ylc
++ na = 卜	/ylc
++ o = 	/ylc
++ ro = 馬	/ylc
++ vi = 鹵	/ylc
++ a = 早	/yld
++ cu = 齒	/yld
++ do = 石	/yld
++ i = 乂	/yld
++ je = 气	/yld
++ jo = 未	/yld
++ ka = 夕	/yld
++ ke = 止	/yld
++ la = 禾	/yld
++ ne = 九	/yld
++ o = 	/yld
++ ro = 末	/yld
++ u = 丶乀	/yld
++ wi = 革	/yld
++ a = 爪	/ylf
++ do = 尚	/ylf
++ e = 正	/ylf
++ i = 一	/ylf
++ ka = 小⺌	/ylf
++ ke = 至	/ylf
++ ne = 见	/ylf
++ o = 用	/ylf
++ ro = 母	/ylf
++ u = 女	/ylf
++ wi = 瓜	/ylf
++ a = 刀	/ylg
++ di = 壬	/ylg
++ do = 巳	/ylg
++ e = 丰	/ylg
++ gu = 已	/ylg
++ i = 水氺	/ylg
++ ke = 	/ylg
++ la = 亥	/ylg
++ ne = 㔾己	/ylg
++ o = 癶	/ylg
++ si = 贝	/ylg
++ a = 丬彡下	/ylh
++ cu = 寸	/ylh
++ do = 舌	/ylh
++ e = 丿也	/ylh
++ gu = 鱼	/ylh
++ i = 乙亅乚冖	/ylh
++ ke = 丁丅	/ylh
++ o = 	/ylh
++ ro = 乜	/ylh
++ wi = 弓	/ylh
++ a = 王	/ylj
++ cu = 长	/ylj
++ di = 日	/ylj
++ e = 儿	/ylj
++ gu = 酉	/ylj
++ i = 鬼丌	/ylj
++ jo = 兀	/ylj
++ ke = 子	/ylj
++ ne = 孑	/ylj
++ o = 	/ylj
++ qo = 牛	/ylj
++ ro = 门	/ylj
++ u = 甶予	/ylj
++ vi = 了	/ylj
++ wi = 高	/ylj
++ wo = 非	/ylj
++ a = 爿	/ylk
++ cu = 车	/ylk
++ do = 豕	/ylk
++ e = 曰	/ylk
++ gu = 羊	/ylk
++ i = 	/ylk
++ je = 且	/ylk
++ jo = 戊	/ylk
++ ka = 辛	/ylk
++ ke = 	/ylk
++ na = 片	/ylk
++ ne = 二⺀	/ylk
++ o = 	/ylk
++ qo = 疒	/ylk
++ ro = 目	/ylk
++ si = 不	/ylk
++ vi = 立	/ylk
++ wi = 戈	/ylk
++ wo = 夫	/ylk
++ a = 上丄	/yll
++ do = 示	/yll
++ e = 月	/yll
++ gu = 弋	/yll
++ i = 七	/yll
++ jo = 亡	/yll
++ ke = 夊攵自	/yll
++ ro = 马	/yll
++ si = 白	/yll
++ vi = 	/yll
++ wi = 广	/yll
++ wo = 飛	/yll
++ a = 八	/ylm
++ do = 三	/ylm
++ e = 人	/ylm
++ gu = 页	/ylm
++ i = 	/ylm
++ ke = 鬥	/ylm
++ o = 	/ylm
++ qo = 乃	/ylm
++ ro = 門	/ylm
++ vi = 力	/ylm
++ wi = 艮	/ylm
++ wo = 方	/ylm
++ a = 勹	/yln
++ cu = 冊	/yln
++ do = 尸	/yln
++ gu = 雨	/yln
++ o = 火	/yln
++ ro = 米	/yln
++ si = 灬	/yln
++ u = 竹臼	/yln
++ vi = 鹿	/yln
++ wi = 古	/yln
++ a = 电	/ylp
++ do = 申	/ylp
++ e = 又	/ylp
++ gu = 由	/ylp
++ i = 艹廾卅卌	/ylp
++ jo = 瓦	/ylp
++ ne = 見	/ylp
++ wi = 干	/ylp
++ e = 臣	/ylq
++ gu = 幺	/ylq
++ i = 厶金	/ylq
++ je = 	/ylq
++ jo = 罒	/ylq
++ ka = 向	/ylq
++ la = 黑	/ylq
++ ne = 巾	/ylq
++ o = 	/ylq
++ ro = 皿	/ylq
++ u = 甫	/ylq
++ gu = 頁	/ylr
++ i = 丨〢〣士	/ylr
++ je = 其	/ylr
++ la = 虎虍	/ylr
++ ne = 而	/ylr
++ ro = 面	/ylr
++ u = 土	/ylr
++ wo = 缶	/ylr
++ a = 咼	/yls
++ cu = 丑	/yls
++ do = 手	/yls
++ gu = 亦	/yls
++ i = 习	/yls
++ jo = 	/yls
++ ke = 舟	/yls
++ na = 皮	/yls
++ ne = 彑耳	/yls
++ o = 口〇	/yls
++ ro = 卯	/yls
++ wi = 骨	/yls
++ a = 僉	/ylt
++ gu = 	/ylt
++ i = 糸隶	/ylt
++ je = 欠	/ylt
++ jo = 囗	/ylt
++ ke = 足	/ylt
++ la = 合	/ylt
++ ne = 彐肀	/ylt
++ o = 	/ylt
++ u = 	/ylt
++ wo = 匚	/ylt
++ a = 巴	/ylv
++ cu = 長镸	/ylv
++ do = 身	/ylv
++ gu = 夭	/ylv
++ i = 之	/ylv
++ ke = 走	/ylv
++ la = 戶	/ylv
++ me = 田	/ylv
++ ne = 斤	/ylv
++ o = 辶⻍	/ylv
++ si = 髟	/ylv
++ u = 木朩	/ylv
++ vi = 來	/ylv
++ a = 犬	/ylw
++ e = 	/ylw
++ gu = 业	/ylw
++ je = 曲	/ylw
++ ke = 大	/ylw
++ ne = 几	/ylw
++ o = 	/ylw
++ ro = 毛	/ylw
++ u = 殳	/ylw
++ wo = 風	/ylw
++ a = 宀	/ylx
++ cu = 亍	/ylx
++ do = 矢	/ylx
++ gu = 禺魚	/ylx
++ i = 十彳	/ylx
++ je = 千	/ylx
++ jo = 烏	/ylx
++ ka = 穴	/ylx
++ ne = 冂甲	/ylx
++ o = 工	/ylx
++ qo = 鳥	/ylx
++ vi = 里	/ylx
++ a = 凵言	/yly
++ cu = 屮川巛巜	/yly
++ do = 山	/yly
++ e = 生	/yly
++ gu = 尤	/yly
++ i = 廴西	/yly
++ jo = 乌	/yly
++ o = 尢亠	/yly
++ qo = 鸟	/yly
++ ro = 麻	/yly
++ si = 貝	/yly
++ u = 丩	/yly
++ vi = 耂	/yly
++ wi = 丱	/yly

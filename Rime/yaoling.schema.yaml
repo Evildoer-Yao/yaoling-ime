@@ -4,11 +4,11 @@
 schema:
   schema_id: yaoling
   name: 妖灵
-  version: 乙巳冬至
+  version: 丙午夏至
   author:
-    - 作者 朱宇浩
-    - 修訂者 Evildoer
-    - 官方網站 <https://shurufa.app>
+    - 灵明作者 朱宇浩
+    - 妖灵作者 Evildoer
+    - 官方網站 <https://shurufa.app/ime/yaoling.html>
     - 官方QQ群 735728797
   description: |
     妖灵輸入法，又稱妖碼。
@@ -334,7 +334,6 @@ key_binder:
     - { when: has_menu, accept: minus, send: Page_Up } # 減號上翻頁
     - { when: has_menu, accept: equal, send: Page_Down } # 等號下翻頁
     - { when: always, accept: "Control+Shift+N", select: yaoling_pop } # 切換妖灵頂屏版
-    - { when: always, accept: "Control+Shift+B", select: yaoling_fluency } # 切換妖灵語流版
 
 recognizer:
   import_preset: default
