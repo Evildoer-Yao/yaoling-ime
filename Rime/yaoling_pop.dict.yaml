@@ -1,11 +1,11 @@
 # encoding: utf-8
 #
 # 妖妖灵
-# 版本: 20260310
+# 版本: 20260627
 #
 ---
 name: "yaoling_pop"
-version: "20260310"
+version: "20260627"
 sort: original
 import_tables:
   # 以下是簡碼字詞，空格上屏
@@ -23,14 +23,14 @@ import_tables:
   # 以下是宇浩極簡千詞詞庫
   - yuhao/yaoling_sc.words_essence
   - yuhao/yaoling.words_essence
-  #- yuhao/yaoling_x_sc.words_essence  #新词库
+  - yuhao/yaoling_x_sc.words_essence  #新词库
   #- yuhao/yaoling_x.words_essence  #新词库
   # 以下是全碼詞庫
   - yuhao/yaoling.words
   - yuhao/yaoling_sc.words 
   - yuhao/yaoling_tc.words
   #- yuhao/yaoling_x.words  #新词库
-  #- yuhao/yaoling_x_sc.words  #新词库
+  - yuhao/yaoling_x_sc.words  #新词库
   #- yuhao/yaoling_x_tc.words  #新词库
   # 以下是低優先級用户自定义詞庫
   - yuhao/yuhao.extended
